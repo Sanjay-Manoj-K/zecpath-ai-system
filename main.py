@@ -1,14 +1,15 @@
-"""
-Zecpath AI System
-Main Entry Point
-"""
-
-from utils.logger import logger
+from parsers.resume_text_extractor import extract_resume_text
 
 
 def main():
-    logger.info("Application Started")
-    print("Welcome to Zecpath AI System")
+
+    file_path = "data/resumes/ai-developer-resume.docx"
+
+    text = extract_resume_text(file_path)
+
+    print("\n========================")
+    print(text)
+    print("========================")
 
 
 if __name__ == "__main__":
