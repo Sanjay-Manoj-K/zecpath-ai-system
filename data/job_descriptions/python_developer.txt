@@ -1,0 +1,18 @@
+Python Developer
+
+We are looking for a Python Developer to join our development team.
+
+Requirements:
+- 2+ years of experience in Python development.
+- Strong knowledge of Python and Django.
+- Experience with REST APIs and SQL.
+- Good understanding of Git and version control.
+- Bachelor's degree in Computer Science or a related field.
+
+Responsibilities:
+- Develop and maintain Python applications.
+- Build and integrate REST APIs.
+- Work with databases using SQL.
+- Collaborate with the development team.
+- Write clean and maintainable code.
+
