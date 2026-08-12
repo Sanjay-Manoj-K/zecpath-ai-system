@@ -1,6 +1,6 @@
 # Day 5 - Resume Text Extraction
 # Day 6 - Job Description Reading
-# Candidate Profile + Job Requirement Validation
+# Day 7 - ATS Scoring
 
 from parsers.resume_text_extractor import extract_resume_text
 from parsers.resume_parser import parse_resume_text
@@ -8,6 +8,8 @@ from parsers.jd_parser import read_job_description, parse_job_description
 
 from ats_engine.ats_engine.candidate_profile import CandidateProfile
 from ats_engine.ats_engine.job_requirement import JobRequirement
+
+from ats_engine.ats_scoring import ATSScore
 
 
 def main():
@@ -90,13 +92,25 @@ def main():
 
     print("Role:", job_requirement.role)
 
-    print("Required Skills:", job_requirement.required_skills)
+    print(
+        "Required Skills:",
+        job_requirement.required_skills
+    )
 
-    print("Experience:", job_requirement.experience)
+    print(
+        "Experience:",
+        job_requirement.experience
+    )
 
-    print("Education:", job_requirement.education)
+    print(
+        "Education:",
+        job_requirement.education
+    )
 
-    print("Responsibilities:", job_requirement.responsibilities)
+    print(
+        "Responsibilities:",
+        job_requirement.responsibilities
+    )
 
     # =========================================================
     # STRUCTURED JOB REQUIREMENTS
@@ -111,9 +125,15 @@ def main():
     for skill in job_requirement.required_skills:
         print("-", skill)
 
-    print("\nExperience:", job_requirement.experience)
+    print(
+        "\nExperience:",
+        job_requirement.experience
+    )
 
-    print("Education:", job_requirement.education)
+    print(
+        "Education:",
+        job_requirement.education
+    )
 
     print("\nResponsibilities:")
 
@@ -121,13 +141,198 @@ def main():
         print("-", responsibility)
 
     # =========================================================
-    # PROCESS COMPLETED
+    # DAY 7 - ATS SCORING
     # =========================================================
 
     print("\n==============================")
-    print("===== PARSING COMPLETED =====")
+    print("===== DAY 7 - ATS SCORING =====")
     print("==============================")
 
+    # Create ATS scoring object
+    ats_score = ATSScore(
+        candidate_profile,
+        job_requirement
+    )
+
+    # Generate ATS report
+    report = ats_score.generate_report()
+
+    # =========================================================
+    # ATS MATCHING REPORT
+    # =========================================================
+
+    print("\n==============================")
+    print("===== ATS MATCHING REPORT =====")
+    print("==============================")
+
+    # ---------------------------------------------------------
+    # SCORE SUMMARY
+    # ---------------------------------------------------------
+
+    print("\n===== ATS SCORE SUMMARY =====")
+
+    print(
+        f"Overall ATS Score: "
+        f"{report['overall_score']} %"
+    )
+
+    print(
+        f"Skill Score: "
+        f"{report['skill_score']} %"
+    )
+
+    print(
+        f"Experience Score: "
+        f"{report['experience_score']} %"
+    )
+
+    print(
+        f"Education Score: "
+        f"{report['education_score']} %"
+    )
+
+    # =========================================================
+    # EXPERIENCE DETAILS
+    # =========================================================
+
+    print("\n===== EXPERIENCE DETAILS =====")
+
+    # Actual candidate experience calculated by ATS engine
+    candidate_experience = report.get(
+        "total_experience_years",
+        0
+    )
+
+    # Required experience extracted from the job description
+    required_experience = ats_score.extract_years(
+        ats_score.job.experience
+    )
+
+    print(
+        f"Candidate Experience: "
+        f"{candidate_experience:.2f} years"
+    )
+
+    print(
+        f"Required Experience: "
+        f"{required_experience:.2f} years"
+    )
+
+    # Check whether requirement is met
+    if candidate_experience >= required_experience:
+
+        print(
+            "Experience Requirement: MET"
+        )
+
+    else:
+
+        print(
+            "Experience Requirement: NOT MET"
+        )
+
+    # =========================================================
+    # SKILL MATCHING
+    # =========================================================
+
+    print("\n===== SKILL MATCHING =====")
+
+    matched_skills = report["matched_skills"]
+    missing_skills = report["missing_skills"]
+
+    total_required_skills = len(
+        ats_score.job.required_skills
+    )
+
+    total_matched_skills = len(
+        matched_skills
+    )
+
+    print(
+        f"Matched Skills: "
+        f"{total_matched_skills}/"
+        f"{total_required_skills}"
+    )
+
+    # ---------------------------------------------------------
+    # MATCHED SKILLS
+    # ---------------------------------------------------------
+
+    if matched_skills:
+
+        print("\nMatched Skills:")
+
+        for skill in matched_skills:
+            print(f"  ✓ {skill}")
+
+    else:
+
+        print("\nMatched Skills:")
+        print("  None")
+
+    # ---------------------------------------------------------
+    # MISSING SKILLS
+    # ---------------------------------------------------------
+
+    if missing_skills:
+
+        print("\nMissing Skills:")
+
+        for skill in missing_skills:
+            print(f"  ✗ {skill}")
+
+    else:
+
+        print("\nMissing Skills:")
+        print("  None")
+
+    # =========================================================
+    # FINAL ATS SUMMARY
+    # =========================================================
+
+    print("\n==============================")
+    print("===== ATS ANALYSIS COMPLETE =====")
+    print("==============================")
+
+    print(
+        f"\nFinal ATS Score: "
+        f"{report['overall_score']} %"
+    )
+
+    print(
+        f"Candidate Experience: "
+        f"{candidate_experience:.2f} years"
+    )
+
+    print(
+        f"Required Experience: "
+        f"{required_experience:.2f} years"
+    )
+
+    print(
+        f"Experience Requirement: "
+        f"{'MET' if candidate_experience >= required_experience else 'NOT MET'}"
+    )
+
+    print(
+        f"Skills Matched: "
+        f"{total_matched_skills}/"
+        f"{total_required_skills}"
+    )
+
+    print(
+        f"Skills Missing: "
+        f"{len(missing_skills)}"
+    )
+
+    print("\n==============================")
+    print("===== PROCESS COMPLETED =====")
+    print("==============================")
+
+
+# =============================================================
+# PROGRAM ENTRY POINT
+# =============================================================
 
 if __name__ == "__main__":
     main()
