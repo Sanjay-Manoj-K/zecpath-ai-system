@@ -1,10 +1,15 @@
 # Day 5 - Resume Text Extraction
 # Day 6 - Job Description Reading
 # Day 7 - ATS Scoring
+# Day 8 - Resume Section Segmentation
 
+from parsers.resume_section_classifier import ResumeSectionClassifier
 from parsers.resume_text_extractor import extract_resume_text
 from parsers.resume_parser import parse_resume_text
-from parsers.jd_parser import read_job_description, parse_job_description
+from parsers.jd_parser import (
+    read_job_description,
+    parse_job_description
+)
 
 from ats_engine.ats_engine.candidate_profile import CandidateProfile
 from ats_engine.ats_engine.job_requirement import JobRequirement
@@ -20,7 +25,6 @@ def main():
 
     resume_file_path = "data/resumes/ai-developer-resume.docx"
 
-    # Extract text from resume
     resume_text = extract_resume_text(resume_file_path)
 
     print("\n==============================")
@@ -35,7 +39,6 @@ def main():
 
     candidate_data = parse_resume_text(resume_text)
 
-    # Validate candidate data using Pydantic
     candidate_profile = CandidateProfile(**candidate_data)
 
     print("\n===== PYDANTIC CANDIDATE VALIDATION =====")
@@ -60,7 +63,6 @@ def main():
 
     jd_file_path = "data/job_descriptions/python_developer.txt"
 
-    # Read job description
     jd_text = read_job_description(jd_file_path)
 
     print("\n==============================")
@@ -75,10 +77,6 @@ def main():
 
     job_requirements = parse_job_description(jd_text)
 
-    # =========================================================
-    # PYDANTIC JOB REQUIREMENT VALIDATION
-    # =========================================================
-
     job_requirement = JobRequirement(**job_requirements)
 
     print("\n===== PYDANTIC JOB VALIDATION =====")
@@ -91,26 +89,10 @@ def main():
     print("\n===== JOB REQUIREMENT OBJECT =====")
 
     print("Role:", job_requirement.role)
-
-    print(
-        "Required Skills:",
-        job_requirement.required_skills
-    )
-
-    print(
-        "Experience:",
-        job_requirement.experience
-    )
-
-    print(
-        "Education:",
-        job_requirement.education
-    )
-
-    print(
-        "Responsibilities:",
-        job_requirement.responsibilities
-    )
+    print("Required Skills:", job_requirement.required_skills)
+    print("Experience:", job_requirement.experience)
+    print("Education:", job_requirement.education)
+    print("Responsibilities:", job_requirement.responsibilities)
 
     # =========================================================
     # STRUCTURED JOB REQUIREMENTS
@@ -125,15 +107,9 @@ def main():
     for skill in job_requirement.required_skills:
         print("-", skill)
 
-    print(
-        "\nExperience:",
-        job_requirement.experience
-    )
+    print("\nExperience:", job_requirement.experience)
 
-    print(
-        "Education:",
-        job_requirement.education
-    )
+    print("Education:", job_requirement.education)
 
     print("\nResponsibilities:")
 
@@ -148,13 +124,11 @@ def main():
     print("===== DAY 7 - ATS SCORING =====")
     print("==============================")
 
-    # Create ATS scoring object
     ats_score = ATSScore(
         candidate_profile,
         job_requirement
     )
 
-    # Generate ATS report
     report = ats_score.generate_report()
 
     # =========================================================
@@ -197,13 +171,11 @@ def main():
 
     print("\n===== EXPERIENCE DETAILS =====")
 
-    # Actual candidate experience calculated by ATS engine
     candidate_experience = report.get(
         "total_experience_years",
         0
     )
 
-    # Required experience extracted from the job description
     required_experience = ats_score.extract_years(
         ats_score.job.experience
     )
@@ -218,7 +190,6 @@ def main():
         f"{required_experience:.2f} years"
     )
 
-    # Check whether requirement is met
     if candidate_experience >= required_experience:
 
         print(
@@ -287,16 +258,107 @@ def main():
         print("  None")
 
     # =========================================================
-    # FINAL ATS SUMMARY
+    # DAY 8 - RESUME SECTION SEGMENTATION
     # =========================================================
 
     print("\n==============================")
-    print("===== ATS ANALYSIS COMPLETE =====")
+    print("===== DAY 8 - RESUME SECTION SEGMENTATION =====")
     print("==============================")
 
+    # Create classifier
+    classifier = ResumeSectionClassifier()
+
+    # ---------------------------------------------------------
+    # SEGMENT RESUME
+    # ---------------------------------------------------------
+
+    sections = classifier.segment(resume_text)
+
+    # ---------------------------------------------------------
+    # DISPLAY SEGMENTED SECTIONS
+    # ---------------------------------------------------------
+
+    classifier.print_sections(sections)
+
+    # =========================================================
+    # DAY 8 - DETAILED BLOCK CLASSIFICATION
+    # =========================================================
+
+    print("\n========================================")
+    print("===== DAY 8 - DETAILED CLASSIFICATION =====")
+    print("========================================")
+
+    detailed_blocks = classifier.classify_blocks(
+        resume_text
+    )
+
+    for block in detailed_blocks:
+
+        print(
+            f"\nBlock {block['block_id']}"
+        )
+
+        print(
+            f"Section    : "
+            f"{block['section']}"
+        )
+
+        print(
+            f"Method     : "
+            f"{block['method']}"
+        )
+
+        print(
+            f"Confidence : "
+            f"{block['confidence']}"
+        )
+
+        print(
+            "Text       : "
+            f"{block['text'][:300]}"
+        )
+
+    # =========================================================
+    # DAY 8 - SECTION SUMMARY
+    # =========================================================
+
+    print("\n========================================")
+    print("===== DAY 8 - SECTION SUMMARY =====")
+    print("========================================")
+
+    for section, contents in sections.items():
+
+        print(
+            f"{section:25} : "
+            f"{len(contents)} block(s)"
+        )
+
+    # =========================================================
+    # FINAL ANALYSIS SUMMARY
+    # =========================================================
+
+    print("\n========================================")
+    print("===== FINAL ANALYSIS SUMMARY =====")
+    print("========================================")
+
     print(
-        f"\nFinal ATS Score: "
+        f"\nATS Score: "
         f"{report['overall_score']} %"
+    )
+
+    print(
+        f"Skill Score: "
+        f"{report['skill_score']} %"
+    )
+
+    print(
+        f"Experience Score: "
+        f"{report['experience_score']} %"
+    )
+
+    print(
+        f"Education Score: "
+        f"{report['education_score']} %"
     )
 
     print(
@@ -324,6 +386,20 @@ def main():
         f"Skills Missing: "
         f"{len(missing_skills)}"
     )
+
+    print(
+        f"Resume Sections Detected: "
+        f"{sum(1 for contents in sections.values() if contents)}"
+    )
+
+    print(
+        f"Resume Blocks Classified: "
+        f"{len(detailed_blocks)}"
+    )
+
+    # =========================================================
+    # PROCESS COMPLETED
+    # =========================================================
 
     print("\n==============================")
     print("===== PROCESS COMPLETED =====")
