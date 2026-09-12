@@ -36,7 +36,7 @@ def main():
     # =========================================================
 
     resume_file_path = (
-        "data/resumes/ai-developer-resume.docx"
+        "data/resumes/software-engineering-resume.docx"
     )
 
     resume_text = extract_resume_text(
