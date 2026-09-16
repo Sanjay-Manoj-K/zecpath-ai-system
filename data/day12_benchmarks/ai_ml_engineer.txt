@@ -1,0 +1,18 @@
+AI/ML Engineer
+
+We are looking for an AI/ML Engineer to develop intelligent applications using machine learning and artificial intelligence.
+
+Requirements:
+- Strong Python programming skills.
+- Knowledge of supervised and unsupervised machine learning.
+- Experience with neural networks and model development.
+- Familiarity with TensorFlow or similar machine learning frameworks.
+- Understanding of data preprocessing and feature engineering.
+- Ability to integrate machine learning models into applications.
+
+Responsibilities:
+- Develop and train machine learning models.
+- Perform data preprocessing and feature engineering.
+- Build AI-powered application components.
+- Evaluate model performance.
+- Integrate trained models into software systems.

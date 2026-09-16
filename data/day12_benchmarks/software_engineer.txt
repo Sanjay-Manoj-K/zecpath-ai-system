@@ -1,0 +1,18 @@
+Software Engineer
+
+We are looking for a Software Engineer to design and develop reliable software applications.
+
+Requirements:
+- Strong programming skills in Python, Java, or C++.
+- Experience with software development and debugging.
+- Knowledge of data structures and algorithms.
+- Experience with Git and version control.
+- Familiarity with REST APIs and web application development.
+- Strong problem-solving and teamwork skills.
+
+Responsibilities:
+- Develop and maintain software applications.
+- Build and integrate REST APIs.
+- Write unit tests and debug software defects.
+- Collaborate with developers to deliver reliable applications.
+- Participate in code reviews.

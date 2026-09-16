@@ -1,0 +1,18 @@
+Data Scientist
+
+We are seeking a Data Scientist to analyze data and build machine learning solutions.
+
+Requirements:
+- Strong knowledge of Python and data analysis.
+- Experience with machine learning algorithms.
+- Knowledge of statistics and data preprocessing.
+- Experience with Pandas, NumPy, and visualization tools.
+- Ability to build predictive models and communicate findings.
+- Experience working with structured and unstructured datasets.
+
+Responsibilities:
+- Clean and preprocess datasets.
+- Perform exploratory data analysis.
+- Develop and evaluate machine learning models.
+- Extract meaningful insights from data.
+- Present analytical findings to technical and business teams.
