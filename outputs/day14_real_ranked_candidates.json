@@ -1,0 +1,1101 @@
+{
+    "job_description": "data\\job_descriptions\\python_developer.txt",
+    "thresholds": {
+        "shortlist": 0.7,
+        "review": 0.5
+    },
+    "ranked_candidates": [
+        {
+            "candidate_id": "Vyshnavi K",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.5957,
+            "final_percentage": 59.57,
+            "available_signals": [
+                "skill_match",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [
+                "experience_relevance"
+            ],
+            "components": {
+                "skill_match": {
+                    "score": 0.6667,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.4375,
+                    "contribution": 0.2917,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": null,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.0,
+                    "contribution": 0.0,
+                    "available": false
+                },
+                "education_alignment": {
+                    "score": 1.0,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.125,
+                    "contribution": 0.125,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.4092,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.4375,
+                    "contribution": 0.179,
+                    "available": true
+                }
+            },
+            "candidate_name": "Vyshnavi K",
+            "resume_path": "data\\resumes\\software-engineering-resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "C",
+                "C++",
+                "Communication",
+                "CSS",
+                "Django",
+                "Git",
+                "HTML",
+                "Java",
+                "JavaScript",
+                "Python",
+                "React",
+                "Spring",
+                "Spring Boot",
+                "SQL"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.6667,
+            "experience_relevance": null,
+            "education_alignment": 1.0,
+            "semantic_similarity": 0.4092,
+            "experience_years": 0.0,
+            "experience_records": [],
+            "semantic_matched": false,
+            "rank": 1,
+            "status": "REVIEW",
+            "score_percentage": 59.57
+        },
+        {
+            "candidate_id": "Sophia Martinez",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.3537,
+            "final_percentage": 35.37,
+            "available_signals": [
+                "skill_match",
+                "experience_relevance",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [],
+            "components": {
+                "skill_match": {
+                    "score": 0.3333,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1167,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": 0.225,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.2,
+                    "contribution": 0.045,
+                    "available": true
+                },
+                "education_alignment": {
+                    "score": 1.0,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.1,
+                    "contribution": 0.1,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.2631,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.0921,
+                    "available": true
+                }
+            },
+            "candidate_name": "Sophia Martinez",
+            "resume_path": "data\\resumes\\ai-developer-resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "Artificial Intelligence",
+                "Data Analysis",
+                "Data Science",
+                "Deep Learning",
+                "Machine Learning",
+                "Neural Networks",
+                "Python",
+                "TensorFlow"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.3333,
+            "experience_relevance": 0.225,
+            "education_alignment": 1.0,
+            "semantic_similarity": 0.2631,
+            "experience_years": 5.67,
+            "experience_records": [
+                {
+                    "job_title": "AI Software Developer",
+                    "company": "DeepTech Innovations — Northwood, OH",
+                    "title_similarity": 0.25,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 1.0,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.329,
+                    "relevance_percent": 32.93,
+                    "candidate_skills": [
+                        "Artificial Intelligence",
+                        "Machine Learning",
+                        "Neural Networks"
+                    ],
+                    "matched_skills": [
+                        "artificial intelligence"
+                    ],
+                    "candidate_role_family": "software_engineering",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Machine Learning Engineer",
+                    "company": "Quantum AI Systems — Cleveland, OH",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.7,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.207,
+                    "relevance_percent": 20.68,
+                    "candidate_skills": [
+                        "Artificial Intelligence",
+                        "Machine Learning"
+                    ],
+                    "matched_skills": [
+                        "artificial intelligence"
+                    ],
+                    "candidate_role_family": "ai_data",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Data Scientist",
+                    "company": "TechData Corp — Northwood, OH",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.0,
+                    "role_family_score": 0.7,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.14,
+                    "relevance_percent": 14.0,
+                    "candidate_skills": [],
+                    "matched_skills": [],
+                    "candidate_role_family": "ai_data",
+                    "target_role_family": "software_engineering"
+                }
+            ],
+            "semantic_matched": false,
+            "rank": 2,
+            "status": "REJECT",
+            "score_percentage": 35.37
+        },
+        {
+            "candidate_id": "Sam Saviour",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.3316,
+            "final_percentage": 33.16,
+            "available_signals": [
+                "skill_match",
+                "experience_relevance",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [],
+            "components": {
+                "skill_match": {
+                    "score": 0.3333,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1167,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": 0.099,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.2,
+                    "contribution": 0.0198,
+                    "available": true
+                },
+                "education_alignment": {
+                    "score": 0.5,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.1,
+                    "contribution": 0.05,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.4146,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1451,
+                    "available": true
+                }
+            },
+            "candidate_name": "Sam Saviour",
+            "resume_path": "data\\resumes\\Junior_Python_Developer_Resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "Angular",
+                "CSS",
+                "Django",
+                "HTML",
+                "JavaScript",
+                "MATLAB",
+                "MySQL",
+                "Oracle",
+                "PostgreSQL",
+                "Python",
+                "Spring"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.3333,
+            "experience_relevance": 0.099,
+            "education_alignment": 0.5,
+            "semantic_similarity": 0.4146,
+            "experience_years": 6.25,
+            "experience_records": [
+                {
+                    "job_title": "GROWTHSI — New York, NY 2017 - 2020",
+                    "company": "Managed, developed, designed, and instituted a dashboard control panel for more than 100 customers and administrators using Django, Oracle DB, PostgreSQL, and VMware API calls.",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.333,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.019,
+                    "relevance_score": 0.136,
+                    "relevance_percent": 13.61,
+                    "candidate_skills": [
+                        "Django",
+                        "MySQL",
+                        "Oracle",
+                        "PostgreSQL",
+                        "Python"
+                    ],
+                    "matched_skills": [
+                        "django",
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Regularly wrote Python routines to log into the websites and fetch data for selected options.",
+                    "company": "Demonstrated the capacity to design and improve robust, scalable, secure, and globalized web-based applications to ensure the continuity of all business processes and client satisfaction.",
+                    "title_similarity": 0.083,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.039,
+                    "relevance_score": 0.093,
+                    "relevance_percent": 9.34,
+                    "candidate_skills": [
+                        "MATLAB",
+                        "Python"
+                    ],
+                    "matched_skills": [
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Utilized AngularJS to develop the component to the application team, Spring MVC to consume REST APIs, and JavaScript, CSS3, and JQuery to display the data in the front end.",
+                    "company": "Junior Python Developer (2018 - 2020)",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.067,
+                    "relevance_percent": 6.68,
+                    "candidate_skills": [
+                        "Angular",
+                        "JavaScript",
+                        "Python",
+                        "Spring"
+                    ],
+                    "matched_skills": [
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                }
+            ],
+            "semantic_matched": false,
+            "rank": 3,
+            "status": "REJECT",
+            "score_percentage": 33.16
+        }
+    ],
+    "shortlisted_candidates": [],
+    "review_candidates": [
+        {
+            "candidate_id": "Vyshnavi K",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.5957,
+            "final_percentage": 59.57,
+            "available_signals": [
+                "skill_match",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [
+                "experience_relevance"
+            ],
+            "components": {
+                "skill_match": {
+                    "score": 0.6667,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.4375,
+                    "contribution": 0.2917,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": null,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.0,
+                    "contribution": 0.0,
+                    "available": false
+                },
+                "education_alignment": {
+                    "score": 1.0,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.125,
+                    "contribution": 0.125,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.4092,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.4375,
+                    "contribution": 0.179,
+                    "available": true
+                }
+            },
+            "candidate_name": "Vyshnavi K",
+            "resume_path": "data\\resumes\\software-engineering-resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "C",
+                "C++",
+                "Communication",
+                "CSS",
+                "Django",
+                "Git",
+                "HTML",
+                "Java",
+                "JavaScript",
+                "Python",
+                "React",
+                "Spring",
+                "Spring Boot",
+                "SQL"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.6667,
+            "experience_relevance": null,
+            "education_alignment": 1.0,
+            "semantic_similarity": 0.4092,
+            "experience_years": 0.0,
+            "experience_records": [],
+            "semantic_matched": false,
+            "rank": 1,
+            "status": "REVIEW",
+            "score_percentage": 59.57
+        }
+    ],
+    "rejected_candidates": [
+        {
+            "candidate_id": "Sophia Martinez",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.3537,
+            "final_percentage": 35.37,
+            "available_signals": [
+                "skill_match",
+                "experience_relevance",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [],
+            "components": {
+                "skill_match": {
+                    "score": 0.3333,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1167,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": 0.225,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.2,
+                    "contribution": 0.045,
+                    "available": true
+                },
+                "education_alignment": {
+                    "score": 1.0,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.1,
+                    "contribution": 0.1,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.2631,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.0921,
+                    "available": true
+                }
+            },
+            "candidate_name": "Sophia Martinez",
+            "resume_path": "data\\resumes\\ai-developer-resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "Artificial Intelligence",
+                "Data Analysis",
+                "Data Science",
+                "Deep Learning",
+                "Machine Learning",
+                "Neural Networks",
+                "Python",
+                "TensorFlow"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.3333,
+            "experience_relevance": 0.225,
+            "education_alignment": 1.0,
+            "semantic_similarity": 0.2631,
+            "experience_years": 5.67,
+            "experience_records": [
+                {
+                    "job_title": "AI Software Developer",
+                    "company": "DeepTech Innovations — Northwood, OH",
+                    "title_similarity": 0.25,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 1.0,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.329,
+                    "relevance_percent": 32.93,
+                    "candidate_skills": [
+                        "Artificial Intelligence",
+                        "Machine Learning",
+                        "Neural Networks"
+                    ],
+                    "matched_skills": [
+                        "artificial intelligence"
+                    ],
+                    "candidate_role_family": "software_engineering",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Machine Learning Engineer",
+                    "company": "Quantum AI Systems — Cleveland, OH",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.7,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.207,
+                    "relevance_percent": 20.68,
+                    "candidate_skills": [
+                        "Artificial Intelligence",
+                        "Machine Learning"
+                    ],
+                    "matched_skills": [
+                        "artificial intelligence"
+                    ],
+                    "candidate_role_family": "ai_data",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Data Scientist",
+                    "company": "TechData Corp — Northwood, OH",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.0,
+                    "role_family_score": 0.7,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.14,
+                    "relevance_percent": 14.0,
+                    "candidate_skills": [],
+                    "matched_skills": [],
+                    "candidate_role_family": "ai_data",
+                    "target_role_family": "software_engineering"
+                }
+            ],
+            "semantic_matched": false,
+            "rank": 2,
+            "status": "REJECT",
+            "score_percentage": 35.37
+        },
+        {
+            "candidate_id": "Sam Saviour",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.3316,
+            "final_percentage": 33.16,
+            "available_signals": [
+                "skill_match",
+                "experience_relevance",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [],
+            "components": {
+                "skill_match": {
+                    "score": 0.3333,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1167,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": 0.099,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.2,
+                    "contribution": 0.0198,
+                    "available": true
+                },
+                "education_alignment": {
+                    "score": 0.5,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.1,
+                    "contribution": 0.05,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.4146,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1451,
+                    "available": true
+                }
+            },
+            "candidate_name": "Sam Saviour",
+            "resume_path": "data\\resumes\\Junior_Python_Developer_Resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "Angular",
+                "CSS",
+                "Django",
+                "HTML",
+                "JavaScript",
+                "MATLAB",
+                "MySQL",
+                "Oracle",
+                "PostgreSQL",
+                "Python",
+                "Spring"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.3333,
+            "experience_relevance": 0.099,
+            "education_alignment": 0.5,
+            "semantic_similarity": 0.4146,
+            "experience_years": 6.25,
+            "experience_records": [
+                {
+                    "job_title": "GROWTHSI — New York, NY 2017 - 2020",
+                    "company": "Managed, developed, designed, and instituted a dashboard control panel for more than 100 customers and administrators using Django, Oracle DB, PostgreSQL, and VMware API calls.",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.333,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.019,
+                    "relevance_score": 0.136,
+                    "relevance_percent": 13.61,
+                    "candidate_skills": [
+                        "Django",
+                        "MySQL",
+                        "Oracle",
+                        "PostgreSQL",
+                        "Python"
+                    ],
+                    "matched_skills": [
+                        "django",
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Regularly wrote Python routines to log into the websites and fetch data for selected options.",
+                    "company": "Demonstrated the capacity to design and improve robust, scalable, secure, and globalized web-based applications to ensure the continuity of all business processes and client satisfaction.",
+                    "title_similarity": 0.083,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.039,
+                    "relevance_score": 0.093,
+                    "relevance_percent": 9.34,
+                    "candidate_skills": [
+                        "MATLAB",
+                        "Python"
+                    ],
+                    "matched_skills": [
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Utilized AngularJS to develop the component to the application team, Spring MVC to consume REST APIs, and JavaScript, CSS3, and JQuery to display the data in the front end.",
+                    "company": "Junior Python Developer (2018 - 2020)",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.067,
+                    "relevance_percent": 6.68,
+                    "candidate_skills": [
+                        "Angular",
+                        "JavaScript",
+                        "Python",
+                        "Spring"
+                    ],
+                    "matched_skills": [
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                }
+            ],
+            "semantic_matched": false,
+            "rank": 3,
+            "status": "REJECT",
+            "score_percentage": 33.16
+        }
+    ],
+    "top_candidates": [
+        {
+            "candidate_id": "Vyshnavi K",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.5957,
+            "final_percentage": 59.57,
+            "available_signals": [
+                "skill_match",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [
+                "experience_relevance"
+            ],
+            "components": {
+                "skill_match": {
+                    "score": 0.6667,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.4375,
+                    "contribution": 0.2917,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": null,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.0,
+                    "contribution": 0.0,
+                    "available": false
+                },
+                "education_alignment": {
+                    "score": 1.0,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.125,
+                    "contribution": 0.125,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.4092,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.4375,
+                    "contribution": 0.179,
+                    "available": true
+                }
+            },
+            "candidate_name": "Vyshnavi K",
+            "resume_path": "data\\resumes\\software-engineering-resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "C",
+                "C++",
+                "Communication",
+                "CSS",
+                "Django",
+                "Git",
+                "HTML",
+                "Java",
+                "JavaScript",
+                "Python",
+                "React",
+                "Spring",
+                "Spring Boot",
+                "SQL"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.6667,
+            "experience_relevance": null,
+            "education_alignment": 1.0,
+            "semantic_similarity": 0.4092,
+            "experience_years": 0.0,
+            "experience_records": [],
+            "semantic_matched": false,
+            "rank": 1,
+            "status": "REVIEW",
+            "score_percentage": 59.57
+        },
+        {
+            "candidate_id": "Sophia Martinez",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.3537,
+            "final_percentage": 35.37,
+            "available_signals": [
+                "skill_match",
+                "experience_relevance",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [],
+            "components": {
+                "skill_match": {
+                    "score": 0.3333,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1167,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": 0.225,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.2,
+                    "contribution": 0.045,
+                    "available": true
+                },
+                "education_alignment": {
+                    "score": 1.0,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.1,
+                    "contribution": 0.1,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.2631,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.0921,
+                    "available": true
+                }
+            },
+            "candidate_name": "Sophia Martinez",
+            "resume_path": "data\\resumes\\ai-developer-resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "Artificial Intelligence",
+                "Data Analysis",
+                "Data Science",
+                "Deep Learning",
+                "Machine Learning",
+                "Neural Networks",
+                "Python",
+                "TensorFlow"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.3333,
+            "experience_relevance": 0.225,
+            "education_alignment": 1.0,
+            "semantic_similarity": 0.2631,
+            "experience_years": 5.67,
+            "experience_records": [
+                {
+                    "job_title": "AI Software Developer",
+                    "company": "DeepTech Innovations — Northwood, OH",
+                    "title_similarity": 0.25,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 1.0,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.329,
+                    "relevance_percent": 32.93,
+                    "candidate_skills": [
+                        "Artificial Intelligence",
+                        "Machine Learning",
+                        "Neural Networks"
+                    ],
+                    "matched_skills": [
+                        "artificial intelligence"
+                    ],
+                    "candidate_role_family": "software_engineering",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Machine Learning Engineer",
+                    "company": "Quantum AI Systems — Cleveland, OH",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.7,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.207,
+                    "relevance_percent": 20.68,
+                    "candidate_skills": [
+                        "Artificial Intelligence",
+                        "Machine Learning"
+                    ],
+                    "matched_skills": [
+                        "artificial intelligence"
+                    ],
+                    "candidate_role_family": "ai_data",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Data Scientist",
+                    "company": "TechData Corp — Northwood, OH",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.0,
+                    "role_family_score": 0.7,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.14,
+                    "relevance_percent": 14.0,
+                    "candidate_skills": [],
+                    "matched_skills": [],
+                    "candidate_role_family": "ai_data",
+                    "target_role_family": "software_engineering"
+                }
+            ],
+            "semantic_matched": false,
+            "rank": 2,
+            "status": "REJECT",
+            "score_percentage": 35.37
+        },
+        {
+            "candidate_id": "Sam Saviour",
+            "role": "Python Developer",
+            "normalized_role": "software_engineering",
+            "final_score": 0.3316,
+            "final_percentage": 33.16,
+            "available_signals": [
+                "skill_match",
+                "experience_relevance",
+                "education_alignment",
+                "semantic_similarity"
+            ],
+            "missing_signals": [],
+            "components": {
+                "skill_match": {
+                    "score": 0.3333,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1167,
+                    "available": true
+                },
+                "experience_relevance": {
+                    "score": 0.099,
+                    "base_weight": 0.2,
+                    "effective_weight": 0.2,
+                    "contribution": 0.0198,
+                    "available": true
+                },
+                "education_alignment": {
+                    "score": 0.5,
+                    "base_weight": 0.1,
+                    "effective_weight": 0.1,
+                    "contribution": 0.05,
+                    "available": true
+                },
+                "semantic_similarity": {
+                    "score": 0.4146,
+                    "base_weight": 0.35,
+                    "effective_weight": 0.35,
+                    "contribution": 0.1451,
+                    "available": true
+                }
+            },
+            "candidate_name": "Sam Saviour",
+            "resume_path": "data\\resumes\\Junior_Python_Developer_Resume.docx",
+            "job_description_path": "data\\job_descriptions\\python_developer.txt",
+            "candidate_skills": [
+                "Angular",
+                "CSS",
+                "Django",
+                "HTML",
+                "JavaScript",
+                "MATLAB",
+                "MySQL",
+                "Oracle",
+                "PostgreSQL",
+                "Python",
+                "Spring"
+            ],
+            "required_skills": [
+                "Python",
+                "Django",
+                "REST API",
+                "REST APIs",
+                "SQL",
+                "Git",
+                "AI"
+            ],
+            "skill_match": 0.3333,
+            "experience_relevance": 0.099,
+            "education_alignment": 0.5,
+            "semantic_similarity": 0.4146,
+            "experience_years": 6.25,
+            "experience_records": [
+                {
+                    "job_title": "GROWTHSI — New York, NY 2017 - 2020",
+                    "company": "Managed, developed, designed, and instituted a dashboard control panel for more than 100 customers and administrators using Django, Oracle DB, PostgreSQL, and VMware API calls.",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.333,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.019,
+                    "relevance_score": 0.136,
+                    "relevance_percent": 13.61,
+                    "candidate_skills": [
+                        "Django",
+                        "MySQL",
+                        "Oracle",
+                        "PostgreSQL",
+                        "Python"
+                    ],
+                    "matched_skills": [
+                        "django",
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Regularly wrote Python routines to log into the websites and fetch data for selected options.",
+                    "company": "Demonstrated the capacity to design and improve robust, scalable, secure, and globalized web-based applications to ensure the continuity of all business processes and client satisfaction.",
+                    "title_similarity": 0.083,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.039,
+                    "relevance_score": 0.093,
+                    "relevance_percent": 9.34,
+                    "candidate_skills": [
+                        "MATLAB",
+                        "Python"
+                    ],
+                    "matched_skills": [
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                },
+                {
+                    "job_title": "Utilized AngularJS to develop the component to the application team, Spring MVC to consume REST APIs, and JavaScript, CSS3, and JQuery to display the data in the front end.",
+                    "company": "Junior Python Developer (2018 - 2020)",
+                    "title_similarity": 0.0,
+                    "skill_overlap_score": 0.167,
+                    "role_family_score": 0.0,
+                    "responsibility_similarity": 0.0,
+                    "relevance_score": 0.067,
+                    "relevance_percent": 6.68,
+                    "candidate_skills": [
+                        "Angular",
+                        "JavaScript",
+                        "Python",
+                        "Spring"
+                    ],
+                    "matched_skills": [
+                        "python"
+                    ],
+                    "candidate_role_family": "general",
+                    "target_role_family": "software_engineering"
+                }
+            ],
+            "semantic_matched": false,
+            "rank": 3,
+            "status": "REJECT",
+            "score_percentage": 33.16
+        }
+    ],
+    "recruiter_summary": {
+        "total_candidates": 3,
+        "shortlisted_count": 0,
+        "review_count": 1,
+        "rejected_count": 2,
+        "top_candidate": {
+            "rank": 1,
+            "candidate_id": "Vyshnavi K",
+            "candidate_name": "Vyshnavi K",
+            "score_percentage": 59.57,
+            "status": "REVIEW"
+        },
+        "thresholds": {
+            "shortlist": 0.7,
+            "review": 0.5
+        }
+    }
+}
