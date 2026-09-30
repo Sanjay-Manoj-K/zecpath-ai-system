@@ -1,0 +1,122 @@
+{
+    "job_description": "data\\job_descriptions\\python_developer.txt",
+    "thresholds": {
+        "shortlist": 0.7,
+        "review": 0.5
+    },
+    "candidate_count": 3,
+    "ranked_candidates": [
+        {
+            "rank": 1,
+            "candidate_id": "Vyshnavi K",
+            "candidate_name": "Vyshnavi K",
+            "role": "Python Developer",
+            "original_ats_score": 0.5957,
+            "original_ats_percentage": 59.57,
+            "fairness_adjusted_score": 0.5835,
+            "fairness_adjusted_percentage": 58.35,
+            "fairness_normalized_score": 1.0,
+            "fairness_normalized_percentage": 100.0,
+            "original_skill_match": 0.6667,
+            "exact_skill_match": 0.5714,
+            "semantic_skill_match": 0.6838,
+            "hybrid_skill_match": 0.6388,
+            "status": "REVIEW",
+            "resume_path": "data\\resumes\\software-engineering-resume.docx"
+        },
+        {
+            "rank": 2,
+            "candidate_id": "Sam Saviour",
+            "candidate_name": "Sam Saviour",
+            "role": "Python Developer",
+            "original_ats_score": 0.3316,
+            "original_ats_percentage": 33.16,
+            "fairness_adjusted_score": 0.3702,
+            "fairness_adjusted_percentage": 37.02,
+            "fairness_normalized_score": 0.0537,
+            "fairness_normalized_percentage": 5.37,
+            "original_skill_match": 0.3333,
+            "exact_skill_match": 0.2857,
+            "semantic_skill_match": 0.5489,
+            "hybrid_skill_match": 0.4436,
+            "status": "REJECT",
+            "resume_path": "data\\resumes\\Junior_Python_Developer_Resume.docx"
+        },
+        {
+            "rank": 3,
+            "candidate_id": "Sophia Martinez",
+            "candidate_name": "Sophia Martinez",
+            "role": "Python Developer",
+            "original_ats_score": 0.3537,
+            "original_ats_percentage": 35.37,
+            "fairness_adjusted_score": 0.3581,
+            "fairness_adjusted_percentage": 35.81,
+            "fairness_normalized_score": 0.0,
+            "fairness_normalized_percentage": 0.0,
+            "original_skill_match": 0.3333,
+            "exact_skill_match": 0.1429,
+            "semantic_skill_match": 0.4809,
+            "hybrid_skill_match": 0.3457,
+            "status": "REJECT",
+            "resume_path": "data\\resumes\\ai-developer-resume.docx"
+        }
+    ],
+    "shortlisted_candidates": [],
+    "review_candidates": [
+        {
+            "rank": 1,
+            "candidate_name": "Vyshnavi K",
+            "fairness_adjusted_percentage": 58.35,
+            "status": "REVIEW"
+        }
+    ],
+    "rejected_candidates": [
+        {
+            "rank": 2,
+            "candidate_name": "Sam Saviour",
+            "fairness_adjusted_percentage": 37.02,
+            "status": "REJECT"
+        },
+        {
+            "rank": 3,
+            "candidate_name": "Sophia Martinez",
+            "fairness_adjusted_percentage": 35.81,
+            "status": "REJECT"
+        }
+    ],
+    "privacy_audit": [
+        {
+            "resume_path": "data\\resumes\\Junior_Python_Developer_Resume.docx",
+            "detected_personal_attributes": [
+                "email",
+                "phone"
+            ],
+            "detected_attribute_count": 2,
+            "masked_preview": "Sam Saviour Junior Python Developer New York City, NY 10000 · [MASKED] · [MASKED] PROFESSIONAL EXPERIENCE RESUME WORDED — New York, NY 2020 - Present Developed 30 views/templates with Django language to create a user-friendly website interface. Built, developed, and implemented effective user interface guidelines and standards throughout the development and maintenance of the website using HTML, CSS, JavaScript and JQuery. Designed and created APIs, database model, and views utilization python to build responsive web page applications, acquiring a 90% responsiveness rate upon completion. Utilized AngularJS to develop the component to the application team, Spring MVC to consume REST APIs, and JavaScript, CSS3, and JQuery to display the data in the front end. GROWTHSI — New York, NY [MASKED] Junior Python Developer ([MASKED]) Managed, developed, designed, and instituted a dashboard control panel for more than 100 customers and administrators using Django, Oracle DB, PostgreSQL, and VMware API calls. Queried MySQL database queries from Python using Python-MySQL Connector and MySQL DB package to retrieve necessary information for the company, resulting in a 75% retrieval rate. Created "
+        },
+        {
+            "resume_path": "data\\resumes\\ai-developer-resume.docx",
+            "detected_personal_attributes": [
+                "email",
+                "phone"
+            ],
+            "detected_attribute_count": 2,
+            "masked_preview": "Sophia Martinez Northwood, OH [MASKED] - [MASKED] Professional Summary Innovative AI Software Developer with expertise in machine learning, utilizing Python and TensorFlow to deliver impactful solutions. Proven track record in boosting predictive power and optimizing neural networks. Work History AI Software Developer January 2024 to August 2025 DeepTech Innovations — Northwood, OH Developed AI algorithms, boosting accuracy by 20% Implemented a new ML pipeline, reducing processing time Optimized neural networks, improving efficiency by 35% Machine Learning Engineer January 2022 to December 2023 Quantum AI Systems — Cleveland, OH Designed ML models, increasing predictive power by 15% Integrated AI solutions into software, reducing errors by 40% Streamlined data processing, boosting throughput Data Scientist January 2020 to December 2021 TechData Corp — Northwood, OH Analyzed datasets to uncover actionable business insights Led a team in predictive modeling initiatives Automated data workflows, improving reporting efficiency Skills Python TensorFlow Machine Learning Deep Learning Data Analysis AI Algorithms Neural Networks Software Development Certifications Certified AI Practitioner"
+        },
+        {
+            "resume_path": "data\\resumes\\software-engineering-resume.docx",
+            "detected_personal_attributes": [
+                "email",
+                "phone"
+            ],
+            "detected_attribute_count": 2,
+            "masked_preview": "Vyshnavi K Motivated and detail-oriented software engineering student seeking a challenging internship position where I can apply my programming skills to real-world projects and learn from experienced developers. Proficient in various programming languages and tools, with experience in web development and a strong understanding of data structures and algorithms. PROFESSIONAL EXPERIENCE Summer 20XX Briggs–Henson Software Inc., Baton Rouge, LA Software Engineering Intern Collaborated with a team of developers to build a REST API using Java and Spring Boot. The API was successfully integrated into the company’s production system and increased efficiency by 20%. Contributed to the development of a React frontend for the API, implementing various user interface features that received positive feedback from users in internal testing. Participated in daily stand-up meetings and code reviews, providing constructive feedback to other team members and receiving positive feedback for effective communication and helpful contributions. Assisted in troubleshooting and resolving bugs in the codebase, reducing the number of unresolved issues by 50%. Pineapple Systems Inc., Baton Rouge, LA Worked "
+        }
+    ],
+    "summary": {
+        "total_candidates": 3,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 2
+    }
+}
