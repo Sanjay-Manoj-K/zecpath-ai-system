@@ -1,0 +1,1740 @@
+
+==========================================================================================
+DAY 17 - ATS SYSTEM TESTING
+==========================================================================================
+Expected test cases: 60
+Job descriptions   : 5
+Expected structure : 5 JDs x 12 resumes = 60 cases
+
+
+##########################################################################################
+TESTING ROLE: ai_ml_engineer
+##########################################################################################
+Role: ai_ml_engineer
+Role type: tech
+Reference resumes: 12
+
+==========================================================================================
+DAY 17 ATS TEST BATCH
+==========================================================================================
+Job Description: data\day12_benchmarks\ai_ml_engineer.txt
+Resumes: 12
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+
+==========================================================================================
+ZECPATH AI SYSTEM - DAY 13 -> DAY 14
+==========================================================================================
+
+Job Description: data\day12_benchmarks\ai_ml_engineer.txt
+Resumes to process: 12
+
+Parsing Job Description once for the batch...
+Job Requirement ready: AI/ML Engineer
+
+Initializing reusable ATS engines...
+Loading semantic model: sentence-transformers/all-MiniLM-L6-v2
+Semantic model loaded successfully.
+Initializing reusable processing components...
+Reusable processing components initialized.
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\ai-developer-resume.docx
+
+Selected file: data\resumes\ai-developer-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\ai-developer-resume.docx
+Paragraphs found: 34
+Tables found: 2
+Detected candidate name: Sophia Martinez
+Detected email: Sophia.Martinez@example.com
+Candidate: Sophia Martinez
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 57.97%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\asst-report-writter-resume.docx
+
+Selected file: data\resumes\asst-report-writter-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\asst-report-writter-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Jishitha Jithin
+Detected email: your.jishi@email.com
+Candidate: Jishitha Jithin
+Role: AI/ML Engineer
+Day 13 ATS Score: 2.63%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\bussines-strategist-resume.docx
+
+Selected file: data\resumes\bussines-strategist-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\bussines-strategist-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Austin Joshua
+Detected email: your.Austin@email.com
+Candidate: Austin Joshua
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 11.30%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\data-scientist-resume.pdf
+
+Selected file: data\resumes\data-scientist-resume.pdf
+Extension: .pdf
+Reading PDF: data\resumes\data-scientist-resume.pdf
+Detected candidate name: Entry-Level Data Scientist
+Candidate: Entry-Level Data Scientist
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 29.02%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Fernandus_Bernard_Resume.docx
+
+Selected file: data\resumes\Fernandus_Bernard_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Fernandus_Bernard_Resume.docx
+Paragraphs found: 38
+Tables found: 0
+Detected candidate name: Fernandus Bernard
+Candidate: Fernandus Bernard
+Role: AI/ML Engineer
+Day 13 ATS Score: 4.63%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\finance-resume.docx
+
+Selected file: data\resumes\finance-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\finance-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Sanskar Sankar
+Detected email: your.sansk@email.com
+Candidate: Sanskar Sankar
+Role: AI/ML Engineer
+Day 13 ATS Score: 13.69%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Junior_Python_Developer_Resume.docx
+
+Selected file: data\resumes\Junior_Python_Developer_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Junior_Python_Developer_Resume.docx
+Paragraphs found: 31
+Tables found: 0
+Detected candidate name: Sam Saviour
+Detected email: first.last@resumeworded.com
+Candidate: Sam Saviour
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 11.11%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\legal-resume.docx
+
+Selected file: data\resumes\legal-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\legal-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Albin Abhraham
+Detected email: your.email@email.com
+Candidate: Albin Abhraham
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 3.29%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\marketing-resume.docx
+
+Selected file: data\resumes\marketing-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\marketing-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Angel Avaran
+Detected email: your.angel@email.com
+Candidate: Angel Avaran
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 9.40%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\mechanical-engineering-resume.docx
+
+Selected file: data\resumes\mechanical-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\mechanical-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Noushad N
+Detected email: dallasnguyen@gmail.com
+Candidate: Noushad N
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 8.25%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\software-engineering-resume.docx
+
+Selected file: data\resumes\software-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\software-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Vyshnavi K
+Detected email: your.vys@email.com
+Candidate: Vyshnavi K
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 14.61%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\tax-resume.docx
+
+Selected file: data\resumes\tax-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\tax-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Rudra Ram Rudra Ram
+Detected email: your.email@email.com
+Candidate: Rudra Ram Rudra Ram
+Role: AI/ML Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 5.57%
+
+==========================================================================================
+DAY 14 - REAL CANDIDATE RANKING
+==========================================================================================
+Rank    Candidate                   ATS Score      Status      Role
+------------------------------------------------------------------------------------------
+1       Sophia Martinez               57.97%       REVIEW      AI/ML Engineer
+2       Entry-Level Data Scientist    29.02%       REJECT      AI/ML Engineer
+3       Vyshnavi K                    14.61%       REJECT      AI/ML Engineer
+4       Sanskar Sankar                13.69%       REJECT      AI/ML Engineer
+5       Austin Joshua                 11.30%       REJECT      AI/ML Engineer
+6       Sam Saviour                   11.11%       REJECT      AI/ML Engineer
+7       Angel Avaran                   9.40%       REJECT      AI/ML Engineer
+8       Noushad N                      8.25%       REJECT      AI/ML Engineer
+9       Rudra Ram Rudra Ram            5.57%       REJECT      AI/ML Engineer
+10      Fernandus Bernard              4.63%       REJECT      AI/ML Engineer
+11      Albin Abhraham                 3.29%       REJECT      AI/ML Engineer
+12      Jishitha Jithin                2.63%       REJECT      AI/ML Engineer
+
+================================================================================
+SHORTLISTED CANDIDATES
+================================================================================
+No candidates.
+
+================================================================================
+REVIEW QUEUE
+================================================================================
+Rank #1 | Sophia Martinez | 57.97%
+
+================================================================================
+AUTO-REJECTION QUEUE
+================================================================================
+Rank #2 | Entry-Level Data Scientist | 29.02%
+Rank #3 | Vyshnavi K | 14.61%
+Rank #4 | Sanskar Sankar | 13.69%
+Rank #5 | Austin Joshua | 11.30%
+Rank #6 | Sam Saviour | 11.11%
+Rank #7 | Angel Avaran | 9.40%
+Rank #8 | Noushad N | 8.25%
+Rank #9 | Rudra Ram Rudra Ram | 5.57%
+Rank #10 | Fernandus Bernard | 4.63%
+Rank #11 | Albin Abhraham | 3.29%
+Rank #12 | Jishitha Jithin | 2.63%
+
+================================================================================
+TOP CANDIDATES
+================================================================================
+#1 Sophia Martinez - 57.97% - REVIEW
+#2 Entry-Level Data Scientist - 29.02% - REJECT
+#3 Vyshnavi K - 14.61% - REJECT
+#4 Sanskar Sankar - 13.69% - REJECT
+#5 Austin Joshua - 11.30% - REJECT
+
+================================================================================
+RECRUITER SUMMARY
+================================================================================
+Total candidates : 12
+Shortlisted      : 0
+Review required  : 1
+Auto-rejected    : 11
+Top-ranked       : Sophia Martinez (57.97%)
+Shortlist limit  : 70%
+Review limit     : 50%
+
+================================================================================
+DAY 14 END-TO-END OUTPUT
+================================================================================
+JSON output: outputs\day14_real_ranked_candidates.json
+
+================================================================================
+DAY 14 END-TO-END PIPELINE COMPLETE
+================================================================================
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 103/103 [00:00<00:00, 2507.36it/s]
+
+ATS results extracted: 12
+
+
+##########################################################################################
+TESTING ROLE: data_scientist
+##########################################################################################
+Role: data_scientist
+Role type: tech
+Reference resumes: 12
+
+==========================================================================================
+DAY 17 ATS TEST BATCH
+==========================================================================================
+Job Description: data\day12_benchmarks\data_scientist.txt
+Resumes: 12
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+
+==========================================================================================
+ZECPATH AI SYSTEM - DAY 13 -> DAY 14
+==========================================================================================
+
+Job Description: data\day12_benchmarks\data_scientist.txt
+Resumes to process: 12
+
+Parsing Job Description once for the batch...
+Job Requirement ready: Data Scientist
+
+Initializing reusable ATS engines...
+Loading semantic model: sentence-transformers/all-MiniLM-L6-v2
+Semantic model loaded successfully.
+Initializing reusable processing components...
+Reusable processing components initialized.
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\ai-developer-resume.docx
+
+Selected file: data\resumes\ai-developer-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\ai-developer-resume.docx
+Paragraphs found: 34
+Tables found: 2
+Detected candidate name: Sophia Martinez
+Detected email: Sophia.Martinez@example.com
+Candidate: Sophia Martinez
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 38.88%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\asst-report-writter-resume.docx
+
+Selected file: data\resumes\asst-report-writter-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\asst-report-writter-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Jishitha Jithin
+Detected email: your.jishi@email.com
+Candidate: Jishitha Jithin
+Role: Data Scientist
+Day 13 ATS Score: 3.46%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\bussines-strategist-resume.docx
+
+Selected file: data\resumes\bussines-strategist-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\bussines-strategist-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Austin Joshua
+Detected email: your.Austin@email.com
+Candidate: Austin Joshua
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 20.02%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\data-scientist-resume.pdf
+
+Selected file: data\resumes\data-scientist-resume.pdf
+Extension: .pdf
+Reading PDF: data\resumes\data-scientist-resume.pdf
+Detected candidate name: Entry-Level Data Scientist
+Candidate: Entry-Level Data Scientist
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 31.70%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Fernandus_Bernard_Resume.docx
+
+Selected file: data\resumes\Fernandus_Bernard_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Fernandus_Bernard_Resume.docx
+Paragraphs found: 38
+Tables found: 0
+Detected candidate name: Fernandus Bernard
+Candidate: Fernandus Bernard
+Role: Data Scientist
+Day 13 ATS Score: 1.33%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\finance-resume.docx
+
+Selected file: data\resumes\finance-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\finance-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Sanskar Sankar
+Detected email: your.sansk@email.com
+Candidate: Sanskar Sankar
+Role: Data Scientist
+Day 13 ATS Score: 23.13%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Junior_Python_Developer_Resume.docx
+
+Selected file: data\resumes\Junior_Python_Developer_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Junior_Python_Developer_Resume.docx
+Paragraphs found: 31
+Tables found: 0
+Detected candidate name: Sam Saviour
+Detected email: first.last@resumeworded.com
+Candidate: Sam Saviour
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 11.75%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\legal-resume.docx
+
+Selected file: data\resumes\legal-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\legal-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Albin Abhraham
+Detected email: your.email@email.com
+Candidate: Albin Abhraham
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 2.54%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\marketing-resume.docx
+
+Selected file: data\resumes\marketing-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\marketing-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Angel Avaran
+Detected email: your.angel@email.com
+Candidate: Angel Avaran
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 9.91%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\mechanical-engineering-resume.docx
+
+Selected file: data\resumes\mechanical-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\mechanical-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Noushad N
+Detected email: dallasnguyen@gmail.com
+Candidate: Noushad N
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 7.97%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\software-engineering-resume.docx
+
+Selected file: data\resumes\software-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\software-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Vyshnavi K
+Detected email: your.vys@email.com
+Candidate: Vyshnavi K
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 10.73%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\tax-resume.docx
+
+Selected file: data\resumes\tax-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\tax-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Rudra Ram Rudra Ram
+Detected email: your.email@email.com
+Candidate: Rudra Ram Rudra Ram
+Role: Data Scientist
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 4.70%
+
+==========================================================================================
+DAY 14 - REAL CANDIDATE RANKING
+==========================================================================================
+Rank    Candidate                   ATS Score      Status      Role
+------------------------------------------------------------------------------------------
+1       Sophia Martinez               38.88%       REJECT      Data Scientist
+2       Entry-Level Data Scientist    31.70%       REJECT      Data Scientist
+3       Sanskar Sankar                23.13%       REJECT      Data Scientist
+4       Austin Joshua                 20.02%       REJECT      Data Scientist
+5       Sam Saviour                   11.75%       REJECT      Data Scientist
+6       Vyshnavi K                    10.73%       REJECT      Data Scientist
+7       Angel Avaran                   9.91%       REJECT      Data Scientist
+8       Noushad N                      7.97%       REJECT      Data Scientist
+9       Rudra Ram Rudra Ram            4.70%       REJECT      Data Scientist
+10      Jishitha Jithin                3.46%       REJECT      Data Scientist
+11      Albin Abhraham                 2.54%       REJECT      Data Scientist
+12      Fernandus Bernard              1.33%       REJECT      Data Scientist
+
+================================================================================
+SHORTLISTED CANDIDATES
+================================================================================
+No candidates.
+
+================================================================================
+REVIEW QUEUE
+================================================================================
+No candidates.
+
+================================================================================
+AUTO-REJECTION QUEUE
+================================================================================
+Rank #1 | Sophia Martinez | 38.88%
+Rank #2 | Entry-Level Data Scientist | 31.70%
+Rank #3 | Sanskar Sankar | 23.13%
+Rank #4 | Austin Joshua | 20.02%
+Rank #5 | Sam Saviour | 11.75%
+Rank #6 | Vyshnavi K | 10.73%
+Rank #7 | Angel Avaran | 9.91%
+Rank #8 | Noushad N | 7.97%
+Rank #9 | Rudra Ram Rudra Ram | 4.70%
+Rank #10 | Jishitha Jithin | 3.46%
+Rank #11 | Albin Abhraham | 2.54%
+Rank #12 | Fernandus Bernard | 1.33%
+
+================================================================================
+TOP CANDIDATES
+================================================================================
+#1 Sophia Martinez - 38.88% - REJECT
+#2 Entry-Level Data Scientist - 31.70% - REJECT
+#3 Sanskar Sankar - 23.13% - REJECT
+#4 Austin Joshua - 20.02% - REJECT
+#5 Sam Saviour - 11.75% - REJECT
+
+================================================================================
+RECRUITER SUMMARY
+================================================================================
+Total candidates : 12
+Shortlisted      : 0
+Review required  : 0
+Auto-rejected    : 12
+Top-ranked       : Sophia Martinez (38.88%)
+Shortlist limit  : 70%
+Review limit     : 50%
+
+================================================================================
+DAY 14 END-TO-END OUTPUT
+================================================================================
+JSON output: outputs\day14_real_ranked_candidates.json
+
+================================================================================
+DAY 14 END-TO-END PIPELINE COMPLETE
+================================================================================
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 103/103 [00:00<00:00, 2588.58it/s]
+
+ATS results extracted: 12
+
+
+##########################################################################################
+TESTING ROLE: finance_analyst
+##########################################################################################
+Role: finance_analyst
+Role type: non-tech
+Reference resumes: 12
+
+==========================================================================================
+DAY 17 ATS TEST BATCH
+==========================================================================================
+Job Description: data\day12_benchmarks\finance_analyst.txt
+Resumes: 12
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+
+==========================================================================================
+ZECPATH AI SYSTEM - DAY 13 -> DAY 14
+==========================================================================================
+
+Job Description: data\day12_benchmarks\finance_analyst.txt
+Resumes to process: 12
+
+Parsing Job Description once for the batch...
+Job Requirement ready: Finance Analyst
+
+Initializing reusable ATS engines...
+Loading semantic model: sentence-transformers/all-MiniLM-L6-v2
+Semantic model loaded successfully.
+Initializing reusable processing components...
+Reusable processing components initialized.
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\ai-developer-resume.docx
+
+Selected file: data\resumes\ai-developer-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\ai-developer-resume.docx
+Paragraphs found: 34
+Tables found: 2
+Detected candidate name: Sophia Martinez
+Detected email: Sophia.Martinez@example.com
+Candidate: Sophia Martinez
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 17.52%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\asst-report-writter-resume.docx
+
+Selected file: data\resumes\asst-report-writter-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\asst-report-writter-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Jishitha Jithin
+Detected email: your.jishi@email.com
+Candidate: Jishitha Jithin
+Role: Finance Analyst
+Day 13 ATS Score: 19.82%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\bussines-strategist-resume.docx
+
+Selected file: data\resumes\bussines-strategist-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\bussines-strategist-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Austin Joshua
+Detected email: your.Austin@email.com
+Candidate: Austin Joshua
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 19.06%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\data-scientist-resume.pdf
+
+Selected file: data\resumes\data-scientist-resume.pdf
+Extension: .pdf
+Reading PDF: data\resumes\data-scientist-resume.pdf
+Detected candidate name: Entry-Level Data Scientist
+Candidate: Entry-Level Data Scientist
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 19.14%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Fernandus_Bernard_Resume.docx
+
+Selected file: data\resumes\Fernandus_Bernard_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Fernandus_Bernard_Resume.docx
+Paragraphs found: 38
+Tables found: 0
+Detected candidate name: Fernandus Bernard
+Candidate: Fernandus Bernard
+Role: Finance Analyst
+Day 13 ATS Score: 10.91%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\finance-resume.docx
+
+Selected file: data\resumes\finance-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\finance-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Sanskar Sankar
+Detected email: your.sansk@email.com
+Candidate: Sanskar Sankar
+Role: Finance Analyst
+Day 13 ATS Score: 29.50%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Junior_Python_Developer_Resume.docx
+
+Selected file: data\resumes\Junior_Python_Developer_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Junior_Python_Developer_Resume.docx
+Paragraphs found: 31
+Tables found: 0
+Detected candidate name: Sam Saviour
+Detected email: first.last@resumeworded.com
+Candidate: Sam Saviour
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 11.29%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\legal-resume.docx
+
+Selected file: data\resumes\legal-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\legal-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Albin Abhraham
+Detected email: your.email@email.com
+Candidate: Albin Abhraham
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 9.46%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\marketing-resume.docx
+
+Selected file: data\resumes\marketing-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\marketing-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Angel Avaran
+Detected email: your.angel@email.com
+Candidate: Angel Avaran
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 20.60%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\mechanical-engineering-resume.docx
+
+Selected file: data\resumes\mechanical-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\mechanical-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Noushad N
+Detected email: dallasnguyen@gmail.com
+Candidate: Noushad N
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 11.93%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\software-engineering-resume.docx
+
+Selected file: data\resumes\software-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\software-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Vyshnavi K
+Detected email: your.vys@email.com
+Candidate: Vyshnavi K
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 16.24%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\tax-resume.docx
+
+Selected file: data\resumes\tax-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\tax-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Rudra Ram Rudra Ram
+Detected email: your.email@email.com
+Candidate: Rudra Ram Rudra Ram
+Role: Finance Analyst
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 32.39%
+
+==========================================================================================
+DAY 14 - REAL CANDIDATE RANKING
+==========================================================================================
+Rank    Candidate                   ATS Score      Status      Role
+------------------------------------------------------------------------------------------
+1       Rudra Ram Rudra Ram           32.39%       REJECT      Finance Analyst
+2       Sanskar Sankar                29.50%       REJECT      Finance Analyst
+3       Angel Avaran                  20.60%       REJECT      Finance Analyst
+4       Jishitha Jithin               19.82%       REJECT      Finance Analyst
+5       Entry-Level Data Scientist    19.14%       REJECT      Finance Analyst
+6       Austin Joshua                 19.06%       REJECT      Finance Analyst
+7       Sophia Martinez               17.52%       REJECT      Finance Analyst
+8       Vyshnavi K                    16.24%       REJECT      Finance Analyst
+9       Noushad N                     11.93%       REJECT      Finance Analyst
+10      Sam Saviour                   11.29%       REJECT      Finance Analyst
+11      Fernandus Bernard             10.91%       REJECT      Finance Analyst
+12      Albin Abhraham                 9.46%       REJECT      Finance Analyst
+
+================================================================================
+SHORTLISTED CANDIDATES
+================================================================================
+No candidates.
+
+================================================================================
+REVIEW QUEUE
+================================================================================
+No candidates.
+
+================================================================================
+AUTO-REJECTION QUEUE
+================================================================================
+Rank #1 | Rudra Ram Rudra Ram | 32.39%
+Rank #2 | Sanskar Sankar | 29.50%
+Rank #3 | Angel Avaran | 20.60%
+Rank #4 | Jishitha Jithin | 19.82%
+Rank #5 | Entry-Level Data Scientist | 19.14%
+Rank #6 | Austin Joshua | 19.06%
+Rank #7 | Sophia Martinez | 17.52%
+Rank #8 | Vyshnavi K | 16.24%
+Rank #9 | Noushad N | 11.93%
+Rank #10 | Sam Saviour | 11.29%
+Rank #11 | Fernandus Bernard | 10.91%
+Rank #12 | Albin Abhraham | 9.46%
+
+================================================================================
+TOP CANDIDATES
+================================================================================
+#1 Rudra Ram Rudra Ram - 32.39% - REJECT
+#2 Sanskar Sankar - 29.50% - REJECT
+#3 Angel Avaran - 20.60% - REJECT
+#4 Jishitha Jithin - 19.82% - REJECT
+#5 Entry-Level Data Scientist - 19.14% - REJECT
+
+================================================================================
+RECRUITER SUMMARY
+================================================================================
+Total candidates : 12
+Shortlisted      : 0
+Review required  : 0
+Auto-rejected    : 12
+Top-ranked       : Rudra Ram Rudra Ram (32.39%)
+Shortlist limit  : 70%
+Review limit     : 50%
+
+================================================================================
+DAY 14 END-TO-END OUTPUT
+================================================================================
+JSON output: outputs\day14_real_ranked_candidates.json
+
+================================================================================
+DAY 14 END-TO-END PIPELINE COMPLETE
+================================================================================
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 103/103 [00:00<00:00, 2220.38it/s]
+
+ATS results extracted: 12
+
+
+##########################################################################################
+TESTING ROLE: legal_intern
+##########################################################################################
+Role: legal_intern
+Role type: non-tech
+Reference resumes: 12
+
+==========================================================================================
+DAY 17 ATS TEST BATCH
+==========================================================================================
+Job Description: data\day12_benchmarks\legal_intern.txt
+Resumes: 12
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+
+==========================================================================================
+ZECPATH AI SYSTEM - DAY 13 -> DAY 14
+==========================================================================================
+
+Job Description: data\day12_benchmarks\legal_intern.txt
+Resumes to process: 12
+
+Parsing Job Description once for the batch...
+Job Requirement ready: Legal Intern
+
+Initializing reusable ATS engines...
+Loading semantic model: sentence-transformers/all-MiniLM-L6-v2
+Semantic model loaded successfully.
+Initializing reusable processing components...
+Reusable processing components initialized.
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\ai-developer-resume.docx
+
+Selected file: data\resumes\ai-developer-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\ai-developer-resume.docx
+Paragraphs found: 34
+Tables found: 2
+Detected candidate name: Sophia Martinez
+Detected email: Sophia.Martinez@example.com
+Candidate: Sophia Martinez
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 11.30%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\asst-report-writter-resume.docx
+
+Selected file: data\resumes\asst-report-writter-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\asst-report-writter-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Jishitha Jithin
+Detected email: your.jishi@email.com
+Candidate: Jishitha Jithin
+Role: Legal Intern
+Day 13 ATS Score: 15.31%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\bussines-strategist-resume.docx
+
+Selected file: data\resumes\bussines-strategist-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\bussines-strategist-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Austin Joshua
+Detected email: your.Austin@email.com
+Candidate: Austin Joshua
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 9.36%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\data-scientist-resume.pdf
+
+Selected file: data\resumes\data-scientist-resume.pdf
+Extension: .pdf
+Reading PDF: data\resumes\data-scientist-resume.pdf
+Detected candidate name: Entry-Level Data Scientist
+Candidate: Entry-Level Data Scientist
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 11.65%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Fernandus_Bernard_Resume.docx
+
+Selected file: data\resumes\Fernandus_Bernard_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Fernandus_Bernard_Resume.docx
+Paragraphs found: 38
+Tables found: 0
+Detected candidate name: Fernandus Bernard
+Candidate: Fernandus Bernard
+Role: Legal Intern
+Day 13 ATS Score: 6.22%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\finance-resume.docx
+
+Selected file: data\resumes\finance-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\finance-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Sanskar Sankar
+Detected email: your.sansk@email.com
+Candidate: Sanskar Sankar
+Role: Legal Intern
+Day 13 ATS Score: 7.69%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Junior_Python_Developer_Resume.docx
+
+Selected file: data\resumes\Junior_Python_Developer_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Junior_Python_Developer_Resume.docx
+Paragraphs found: 31
+Tables found: 0
+Detected candidate name: Sam Saviour
+Detected email: first.last@resumeworded.com
+Candidate: Sam Saviour
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 0.94%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\legal-resume.docx
+
+Selected file: data\resumes\legal-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\legal-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Albin Abhraham
+Detected email: your.email@email.com
+Candidate: Albin Abhraham
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 15.86%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\marketing-resume.docx
+
+Selected file: data\resumes\marketing-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\marketing-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Angel Avaran
+Detected email: your.angel@email.com
+Candidate: Angel Avaran
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 11.97%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\mechanical-engineering-resume.docx
+
+Selected file: data\resumes\mechanical-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\mechanical-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Noushad N
+Detected email: dallasnguyen@gmail.com
+Candidate: Noushad N
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 1.71%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\software-engineering-resume.docx
+
+Selected file: data\resumes\software-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\software-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Vyshnavi K
+Detected email: your.vys@email.com
+Candidate: Vyshnavi K
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 7.72%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\tax-resume.docx
+
+Selected file: data\resumes\tax-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\tax-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Rudra Ram Rudra Ram
+Detected email: your.email@email.com
+Candidate: Rudra Ram Rudra Ram
+Role: Legal Intern
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 14.80%
+
+==========================================================================================
+DAY 14 - REAL CANDIDATE RANKING
+==========================================================================================
+Rank    Candidate                   ATS Score      Status      Role
+------------------------------------------------------------------------------------------
+1       Albin Abhraham                15.86%       REJECT      Legal Intern
+2       Jishitha Jithin               15.31%       REJECT      Legal Intern
+3       Rudra Ram Rudra Ram           14.80%       REJECT      Legal Intern
+4       Angel Avaran                  11.97%       REJECT      Legal Intern
+5       Entry-Level Data Scientist    11.65%       REJECT      Legal Intern
+6       Sophia Martinez               11.30%       REJECT      Legal Intern
+7       Austin Joshua                  9.36%       REJECT      Legal Intern
+8       Vyshnavi K                     7.72%       REJECT      Legal Intern
+9       Sanskar Sankar                 7.69%       REJECT      Legal Intern
+10      Fernandus Bernard              6.22%       REJECT      Legal Intern
+11      Noushad N                      1.71%       REJECT      Legal Intern
+12      Sam Saviour                    0.94%       REJECT      Legal Intern
+
+================================================================================
+SHORTLISTED CANDIDATES
+================================================================================
+No candidates.
+
+================================================================================
+REVIEW QUEUE
+================================================================================
+No candidates.
+
+================================================================================
+AUTO-REJECTION QUEUE
+================================================================================
+Rank #1 | Albin Abhraham | 15.86%
+Rank #2 | Jishitha Jithin | 15.31%
+Rank #3 | Rudra Ram Rudra Ram | 14.80%
+Rank #4 | Angel Avaran | 11.97%
+Rank #5 | Entry-Level Data Scientist | 11.65%
+Rank #6 | Sophia Martinez | 11.30%
+Rank #7 | Austin Joshua | 9.36%
+Rank #8 | Vyshnavi K | 7.72%
+Rank #9 | Sanskar Sankar | 7.69%
+Rank #10 | Fernandus Bernard | 6.22%
+Rank #11 | Noushad N | 1.71%
+Rank #12 | Sam Saviour | 0.94%
+
+================================================================================
+TOP CANDIDATES
+================================================================================
+#1 Albin Abhraham - 15.86% - REJECT
+#2 Jishitha Jithin - 15.31% - REJECT
+#3 Rudra Ram Rudra Ram - 14.80% - REJECT
+#4 Angel Avaran - 11.97% - REJECT
+#5 Entry-Level Data Scientist - 11.65% - REJECT
+
+================================================================================
+RECRUITER SUMMARY
+================================================================================
+Total candidates : 12
+Shortlisted      : 0
+Review required  : 0
+Auto-rejected    : 12
+Top-ranked       : Albin Abhraham (15.86%)
+Shortlist limit  : 70%
+Review limit     : 50%
+
+================================================================================
+DAY 14 END-TO-END OUTPUT
+================================================================================
+JSON output: outputs\day14_real_ranked_candidates.json
+
+================================================================================
+DAY 14 END-TO-END PIPELINE COMPLETE
+================================================================================
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 103/103 [00:00<00:00, 2624.55it/s]
+
+ATS results extracted: 12
+
+
+##########################################################################################
+TESTING ROLE: software_engineer
+##########################################################################################
+Role: software_engineer
+Role type: tech
+Reference resumes: 12
+
+==========================================================================================
+DAY 17 ATS TEST BATCH
+==========================================================================================
+Job Description: data\day12_benchmarks\software_engineer.txt
+Resumes: 12
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+
+==========================================================================================
+ZECPATH AI SYSTEM - DAY 13 -> DAY 14
+==========================================================================================
+
+Job Description: data\day12_benchmarks\software_engineer.txt
+Resumes to process: 12
+
+Parsing Job Description once for the batch...
+Job Requirement ready: Software Engineer
+
+Initializing reusable ATS engines...
+Loading semantic model: sentence-transformers/all-MiniLM-L6-v2
+Semantic model loaded successfully.
+Initializing reusable processing components...
+Reusable processing components initialized.
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\ai-developer-resume.docx
+
+Selected file: data\resumes\ai-developer-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\ai-developer-resume.docx
+Paragraphs found: 34
+Tables found: 2
+Detected candidate name: Sophia Martinez
+Detected email: Sophia.Martinez@example.com
+Candidate: Sophia Martinez
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 22.93%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\asst-report-writter-resume.docx
+
+Selected file: data\resumes\asst-report-writter-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\asst-report-writter-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Jishitha Jithin
+Detected email: your.jishi@email.com
+Candidate: Jishitha Jithin
+Role: Software Engineer
+Day 13 ATS Score: 3.18%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\bussines-strategist-resume.docx
+
+Selected file: data\resumes\bussines-strategist-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\bussines-strategist-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Austin Joshua
+Detected email: your.Austin@email.com
+Candidate: Austin Joshua
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 7.78%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\data-scientist-resume.pdf
+
+Selected file: data\resumes\data-scientist-resume.pdf
+Extension: .pdf
+Reading PDF: data\resumes\data-scientist-resume.pdf
+Detected candidate name: Entry-Level Data Scientist
+Candidate: Entry-Level Data Scientist
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 17.09%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Fernandus_Bernard_Resume.docx
+
+Selected file: data\resumes\Fernandus_Bernard_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Fernandus_Bernard_Resume.docx
+Paragraphs found: 38
+Tables found: 0
+Detected candidate name: Fernandus Bernard
+Candidate: Fernandus Bernard
+Role: Software Engineer
+Day 13 ATS Score: 22.41%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\finance-resume.docx
+
+Selected file: data\resumes\finance-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\finance-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Sanskar Sankar
+Detected email: your.sansk@email.com
+Candidate: Sanskar Sankar
+Role: Software Engineer
+Day 13 ATS Score: 5.11%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\Junior_Python_Developer_Resume.docx
+
+Selected file: data\resumes\Junior_Python_Developer_Resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\Junior_Python_Developer_Resume.docx
+Paragraphs found: 31
+Tables found: 0
+Detected candidate name: Sam Saviour
+Detected email: first.last@resumeworded.com
+Candidate: Sam Saviour
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 13.05%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\legal-resume.docx
+
+Selected file: data\resumes\legal-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\legal-resume.docx
+Paragraphs found: 2
+Tables found: 1
+Detected candidate name: Albin Abhraham
+Detected email: your.email@email.com
+Candidate: Albin Abhraham
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 2.37%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\marketing-resume.docx
+
+Selected file: data\resumes\marketing-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\marketing-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Angel Avaran
+Detected email: your.angel@email.com
+Candidate: Angel Avaran
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 7.95%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\mechanical-engineering-resume.docx
+
+Selected file: data\resumes\mechanical-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\mechanical-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Noushad N
+Detected email: dallasnguyen@gmail.com
+Candidate: Noushad N
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 5.62%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\software-engineering-resume.docx
+
+Selected file: data\resumes\software-engineering-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\software-engineering-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Vyshnavi K
+Detected email: your.vys@email.com
+Candidate: Vyshnavi K
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 38.93%
+
+================================================================================
+PROCESSING CANDIDATE
+================================================================================
+Resume: data\resumes\tax-resume.docx
+
+Selected file: data\resumes\tax-resume.docx
+Extension: .docx
+Reading DOCX: data\resumes\tax-resume.docx
+Paragraphs found: 1
+Tables found: 1
+Detected candidate name: Rudra Ram Rudra Ram
+Detected email: your.email@email.com
+Candidate: Rudra Ram Rudra Ram
+Role: Software Engineer
+
+Day 10 parser returned no structured experience records.
+Using conservative fallback experience parser...
+Day 13 ATS Score: 13.61%
+
+==========================================================================================
+DAY 14 - REAL CANDIDATE RANKING
+==========================================================================================
+Rank    Candidate                   ATS Score      Status      Role
+------------------------------------------------------------------------------------------
+1       Vyshnavi K                    38.93%       REJECT      Software Engineer
+2       Sophia Martinez               22.93%       REJECT      Software Engineer
+3       Fernandus Bernard             22.41%       REJECT      Software Engineer
+4       Entry-Level Data Scientist    17.09%       REJECT      Software Engineer
+5       Rudra Ram Rudra Ram           13.61%       REJECT      Software Engineer
+6       Sam Saviour                   13.05%       REJECT      Software Engineer
+7       Angel Avaran                   7.95%       REJECT      Software Engineer
+8       Austin Joshua                  7.78%       REJECT      Software Engineer
+9       Noushad N                      5.62%       REJECT      Software Engineer
+10      Sanskar Sankar                 5.11%       REJECT      Software Engineer
+11      Jishitha Jithin                3.18%       REJECT      Software Engineer
+12      Albin Abhraham                 2.37%       REJECT      Software Engineer
+
+================================================================================
+SHORTLISTED CANDIDATES
+================================================================================
+No candidates.
+
+================================================================================
+REVIEW QUEUE
+================================================================================
+No candidates.
+
+================================================================================
+AUTO-REJECTION QUEUE
+================================================================================
+Rank #1 | Vyshnavi K | 38.93%
+Rank #2 | Sophia Martinez | 22.93%
+Rank #3 | Fernandus Bernard | 22.41%
+Rank #4 | Entry-Level Data Scientist | 17.09%
+Rank #5 | Rudra Ram Rudra Ram | 13.61%
+Rank #6 | Sam Saviour | 13.05%
+Rank #7 | Angel Avaran | 7.95%
+Rank #8 | Austin Joshua | 7.78%
+Rank #9 | Noushad N | 5.62%
+Rank #10 | Sanskar Sankar | 5.11%
+Rank #11 | Jishitha Jithin | 3.18%
+Rank #12 | Albin Abhraham | 2.37%
+
+================================================================================
+TOP CANDIDATES
+================================================================================
+#1 Vyshnavi K - 38.93% - REJECT
+#2 Sophia Martinez - 22.93% - REJECT
+#3 Fernandus Bernard - 22.41% - REJECT
+#4 Entry-Level Data Scientist - 17.09% - REJECT
+#5 Rudra Ram Rudra Ram - 13.61% - REJECT
+
+================================================================================
+RECRUITER SUMMARY
+================================================================================
+Total candidates : 12
+Shortlisted      : 0
+Review required  : 0
+Auto-rejected    : 12
+Top-ranked       : Vyshnavi K (38.93%)
+Shortlist limit  : 70%
+Review limit     : 50%
+
+================================================================================
+DAY 14 END-TO-END OUTPUT
+================================================================================
+JSON output: outputs\day14_real_ranked_candidates.json
+
+================================================================================
+DAY 14 END-TO-END PIPELINE COMPLETE
+================================================================================
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 103/103 [00:00<00:00, 2345.74it/s]
+
+ATS results extracted: 12
+
+==========================================================================================
+DAY 17 DATASET VALIDATION
+==========================================================================================
+Expected cases : 60
+Observed cases : 60
+Dataset validation: PASSED
+
+==========================================================================================
+DAY 17 - ATS TESTING SUMMARY
+==========================================================================================
+ai_ml_engineer       | Sophia Martinez                        |  57.97% | REVIEW    | TRUE_POSITIVE
+ai_ml_engineer       | Jishitha Jithin                        |   2.63% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Austin Joshua                          |  11.30% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Entry-Level Data Scientist             |  29.02% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Fernandus Bernard                      |   4.63% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Sanskar Sankar                         |  13.69% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Sam Saviour                            |  11.11% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Albin Abhraham                         |   3.29% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Angel Avaran                           |   9.40% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Noushad N                              |   8.25% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Vyshnavi K                             |  14.61% | REJECT    | TRUE_NEGATIVE
+ai_ml_engineer       | Rudra Ram Rudra Ram                    |   5.57% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Sophia Martinez                        |  38.88% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Jishitha Jithin                        |   3.46% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Austin Joshua                          |  20.02% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Entry-Level Data Scientist             |  31.70% | REJECT    | FALSE_NEGATIVE
+data_scientist       | Fernandus Bernard                      |   1.33% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Sanskar Sankar                         |  23.13% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Sam Saviour                            |  11.75% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Albin Abhraham                         |   2.54% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Angel Avaran                           |   9.91% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Noushad N                              |   7.97% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Vyshnavi K                             |  10.73% | REJECT    | TRUE_NEGATIVE
+data_scientist       | Rudra Ram Rudra Ram                    |   4.70% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Sophia Martinez                        |  17.52% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Jishitha Jithin                        |  19.82% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Austin Joshua                          |  19.06% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Entry-Level Data Scientist             |  19.14% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Fernandus Bernard                      |  10.91% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Sanskar Sankar                         |  29.50% | REJECT    | FALSE_NEGATIVE
+finance_analyst      | Sam Saviour                            |  11.29% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Albin Abhraham                         |   9.46% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Angel Avaran                           |  20.60% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Noushad N                              |  11.93% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Vyshnavi K                             |  16.24% | REJECT    | TRUE_NEGATIVE
+finance_analyst      | Rudra Ram Rudra Ram                    |  32.39% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Sophia Martinez                        |  11.30% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Jishitha Jithin                        |  15.31% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Austin Joshua                          |   9.36% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Entry-Level Data Scientist             |  11.65% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Fernandus Bernard                      |   6.22% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Sanskar Sankar                         |   7.69% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Sam Saviour                            |   0.94% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Albin Abhraham                         |  15.86% | REJECT    | FALSE_NEGATIVE
+legal_intern         | Angel Avaran                           |  11.97% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Noushad N                              |   1.71% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Vyshnavi K                             |   7.72% | REJECT    | TRUE_NEGATIVE
+legal_intern         | Rudra Ram Rudra Ram                    |  14.80% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Sophia Martinez                        |  22.93% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Jishitha Jithin                        |   3.18% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Austin Joshua                          |   7.78% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Entry-Level Data Scientist             |  17.09% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Fernandus Bernard                      |  22.41% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Sanskar Sankar                         |   5.11% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Sam Saviour                            |  13.05% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Albin Abhraham                         |   2.37% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Angel Avaran                           |   7.95% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Noushad N                              |   5.62% | REJECT    | TRUE_NEGATIVE
+software_engineer    | Vyshnavi K                             |  38.93% | REJECT    | FALSE_NEGATIVE
+software_engineer    | Rudra Ram Rudra Ram                    |  13.61% | REJECT    | TRUE_NEGATIVE
+
+==========================================================================================
+OVERALL METRICS
+==========================================================================================
+Total test cases       : 60
+Valid ATS predictions  : 60
+Execution errors       : 0
+True positives         : 1
+True negatives         : 55
+False positives        : 0
+False negatives        : 4
+Accuracy               : 93.33%
+Precision              : 100.00%
+Recall                 : 20.00%
+Prediction coverage   : 100.00%
+Execution error rate  : 0.00%
+
+==========================================================================================
+ROLE-WISE METRICS
+==========================================================================================
+ai_ml_engineer       | Cases: 12 | Valid: 12 | Errors:  0 | Accuracy: 100.00% | Precision: 100.00% | Recall: 100.00%
+data_scientist       | Cases: 12 | Valid: 12 | Errors:  0 | Accuracy:  91.67% | Precision:   0.00% | Recall:   0.00%
+finance_analyst      | Cases: 12 | Valid: 12 | Errors:  0 | Accuracy:  91.67% | Precision:   0.00% | Recall:   0.00%
+legal_intern         | Cases: 12 | Valid: 12 | Errors:  0 | Accuracy:  91.67% | Precision:   0.00% | Recall:   0.00%
+software_engineer    | Cases: 12 | Valid: 12 | Errors:  0 | Accuracy:  91.67% | Precision:   0.00% | Recall:   0.00%
+
+==========================================================================================
+EXECUTION ERROR CASES
+==========================================================================================
+No execution errors.
+
+Results saved to: outputs\day17\day17_test_results.json
+Metrics saved to: outputs\day17\day17_accuracy_metrics.json

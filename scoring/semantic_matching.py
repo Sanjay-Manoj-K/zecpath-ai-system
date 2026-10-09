@@ -397,8 +397,9 @@ class SemanticMatchingEngine:
             )
         )
 
+        # Keep the overall semantic score within the ATS scorer's 0-1 range.
         return round(
-            float(overall),
+            max(0.0, min(1.0, float(overall))),
             4,
         )
 

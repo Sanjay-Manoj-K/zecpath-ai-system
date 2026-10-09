@@ -1,0 +1,88 @@
+{
+  "overall": {
+    "total_cases": 60,
+    "valid_predictions": 60,
+    "execution_errors": 0,
+    "true_positive": 1,
+    "true_negative": 55,
+    "false_positive": 0,
+    "false_negative": 4,
+    "accuracy": 0.9333,
+    "precision": 1.0,
+    "recall": 0.2,
+    "prediction_coverage": 1.0,
+    "execution_error_rate": 0.0
+  },
+  "by_role": {
+    "ai_ml_engineer": {
+      "total_cases": 12,
+      "valid_predictions": 12,
+      "execution_errors": 0,
+      "true_positive": 1,
+      "true_negative": 11,
+      "false_positive": 0,
+      "false_negative": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "prediction_coverage": 1.0,
+      "execution_error_rate": 0.0
+    },
+    "data_scientist": {
+      "total_cases": 12,
+      "valid_predictions": 12,
+      "execution_errors": 0,
+      "true_positive": 0,
+      "true_negative": 11,
+      "false_positive": 0,
+      "false_negative": 1,
+      "accuracy": 0.9167,
+      "precision": 0.0,
+      "recall": 0.0,
+      "prediction_coverage": 1.0,
+      "execution_error_rate": 0.0
+    },
+    "finance_analyst": {
+      "total_cases": 12,
+      "valid_predictions": 12,
+      "execution_errors": 0,
+      "true_positive": 0,
+      "true_negative": 11,
+      "false_positive": 0,
+      "false_negative": 1,
+      "accuracy": 0.9167,
+      "precision": 0.0,
+      "recall": 0.0,
+      "prediction_coverage": 1.0,
+      "execution_error_rate": 0.0
+    },
+    "legal_intern": {
+      "total_cases": 12,
+      "valid_predictions": 12,
+      "execution_errors": 0,
+      "true_positive": 0,
+      "true_negative": 11,
+      "false_positive": 0,
+      "false_negative": 1,
+      "accuracy": 0.9167,
+      "precision": 0.0,
+      "recall": 0.0,
+      "prediction_coverage": 1.0,
+      "execution_error_rate": 0.0
+    },
+    "software_engineer": {
+      "total_cases": 12,
+      "valid_predictions": 12,
+      "execution_errors": 0,
+      "true_positive": 0,
+      "true_negative": 11,
+      "false_positive": 0,
+      "false_negative": 1,
+      "accuracy": 0.9167,
+      "precision": 0.0,
+      "recall": 0.0,
+      "prediction_coverage": 1.0,
+      "execution_error_rate": 0.0
+    }
+  }
+}
