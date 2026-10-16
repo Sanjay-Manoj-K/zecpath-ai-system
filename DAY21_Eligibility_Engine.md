@@ -10,21 +10,21 @@ The decision considers the configured ATS score threshold, mandatory skills, and
 
 ## 2. Main Features
 
-\- Role-specific eligibility rules loaded from JSON configuration.
+- Role-specific eligibility rules loaded from JSON configuration.
 
-\- ATS score threshold validation.
+- ATS score threshold validation.
 
-\- Mandatory skill checking.
+- Mandatory skill checking.
 
-\- Skill alias normalization to handle common variations in skill names.
+- Skill alias normalization to handle common variations in skill names.
 
-\- Optional experience, location, and availability checks.
+- Optional experience, location, and availability checks.
 
-\- Review handling for missing required information.
+- Review handling for missing required information.
 
-\- FastAPI endpoint for evaluating resume eligibility.
+- FastAPI endpoint for evaluating resume eligibility.
 
-\- Automated tests for the eligibility decision engine.
+- Automated tests for the eligibility decision engine.
 
 ## 3. Files Added or Modified
 
@@ -74,11 +74,11 @@ The `resume\_id` identifies the uploaded resume to evaluate.
 
 Additional optional request fields include:
 
-\- `experience\_years`
+- `experience\_years`
 
-\- `location`
+- `location`
 
-\- `availability\_confirmed`
+- `availability\_confirmed`
 
 These fields can supply candidate information used by applicable eligibility rules.
 
@@ -160,9 +160,9 @@ Eligibility requirements are maintained in:
 
 For the configured Python Developer example, the rules include:
 
-\- Minimum ATS score: `0.70`
+- Minimum ATS score: `0.70`
 
-\- Mandatory skills: `Python` and `REST API`
+- Mandatory skills: `Python` and `REST API`
 
 The threshold is represented as a normalized score between 0 and 1.
 
@@ -194,15 +194,15 @@ Alias normalization improves consistency, but it does not guarantee that every s
 
 During manual API validation, the following result was returned for a Python Developer eligibility request:
 
-\- Decision: `REJECTED`
+- Decision: `REJECTED`
 
-\- ATS score: `0.5962`
+- ATS score: `0.5962`
 
-\- Minimum ATS score: `0.700`
+- Minimum ATS score: `0.700`
 
-\- Mandatory skills: Passed
+- Mandatory skills: Passed
 
-\- Review required: `false`
+- Review required: `false`
 
 The response reported that all configured mandatory skills were found, but the ATS score was below the minimum threshold.
 
@@ -268,15 +268,15 @@ Result: No whitespace errors reported. Git displayed a line-ending warning for `
 
 ## 10. Current Limitations
 
-\- Resume data is stored in memory by the current API implementation. Restarting the server may clear uploaded resume records, requiring the test resume to be uploaded again.
+- Resume data is stored in memory by the current API implementation. Restarting the server may clear uploaded resume records, requiring the test resume to be uploaded again.
 
-\- Resume parsing can produce incomplete or incorrectly merged fields, including experience and education.
+- Resume parsing can produce incomplete or incorrectly merged fields, including experience and education.
 
-\- Eligibility decisions depend on the quality of parsed resume data and the correctness of the configured rules.
+- Eligibility decisions depend on the quality of parsed resume data and the correctness of the configured rules.
 
-\- Passing automated tests does not prove production readiness.
+- Passing automated tests does not prove production readiness.
 
-\- Eligibility output should be reviewed by a human before being used for real recruitment decisions.
+- Eligibility output should be reviewed by a human before being used for real recruitment decisions.
 
 ## 11. Day 21 Summary
 
