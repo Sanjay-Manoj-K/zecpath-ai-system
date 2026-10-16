@@ -51,6 +51,8 @@ from api.services import (
 )
 
 
+from api.eligibility_routes import router as eligibility_router
+
 # ============================================================================
 # APP
 # ============================================================================
@@ -64,6 +66,8 @@ app = FastAPI(
     ),
     version="1.0.0",
 )
+
+app.include_router(eligibility_router)
 
 
 # ============================================================================

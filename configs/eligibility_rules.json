@@ -1,0 +1,20 @@
+﻿{
+  "roles": {
+    "python_developer": {
+      "minimum_ats_score": 0.70,
+      "mandatory_skills": ["Python", "REST API"],
+      "min_experience_years": null,
+      "max_experience_years": null,
+      "allowed_locations": [],
+      "require_availability_confirmation": false
+    },
+    "ai_ml_engineer": {
+      "minimum_ats_score": 0.72,
+      "mandatory_skills": ["Python", "Machine Learning"],
+      "min_experience_years": null,
+      "max_experience_years": null,
+      "allowed_locations": [],
+      "require_availability_confirmation": false
+    }
+  }
+}
