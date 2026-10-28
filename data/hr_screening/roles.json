@@ -1,0 +1,21 @@
+{
+  "dataset_version": "1.0.0",
+  "default_language": "en-IN",
+  "roles": [
+    {
+      "role_id": "python_developer",
+      "label": "Python Developer",
+      "question_count": 14
+    },
+    {
+      "role_id": "ai_ml_engineer",
+      "label": "AI/ML Engineer",
+      "question_count": 14
+    },
+    {
+      "role_id": "software_developer",
+      "label": "Software Developer",
+      "question_count": 14
+    }
+  ]
+}

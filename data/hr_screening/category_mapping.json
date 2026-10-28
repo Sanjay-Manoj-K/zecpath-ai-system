@@ -1,0 +1,91 @@
+{
+  "mapping_version": "1.0.0",
+  "categories": {
+    "introduction": {
+      "label": "Introduction",
+      "description": "Candidate overview, motivation, and relevant project summary.",
+      "allowed_answer_types": [
+        "free_text"
+      ],
+      "default_mandatory": false,
+      "order": 1
+    },
+    "education": {
+      "label": "Education",
+      "description": "Completed or current education and relevant training.",
+      "allowed_answer_types": [
+        "education_summary",
+        "list_or_text"
+      ],
+      "default_mandatory": false,
+      "order": 2
+    },
+    "experience": {
+      "label": "Experience",
+      "description": "Professional, research, or project experience relevant to the role.",
+      "allowed_answer_types": [
+        "duration_with_context",
+        "free_text"
+      ],
+      "default_mandatory": false,
+      "order": 3
+    },
+    "skills": {
+      "label": "Skills",
+      "description": "Technical capabilities, frameworks, methods, and practical exposure.",
+      "allowed_answer_types": [
+        "list_with_examples",
+        "multi_part_text"
+      ],
+      "default_mandatory": false,
+      "order": 4
+    },
+    "location": {
+      "label": "Location",
+      "description": "Current location and job-related work-arrangement feasibility.",
+      "allowed_answer_types": [
+        "location_and_work_mode",
+        "yes_no_with_details"
+      ],
+      "default_mandatory": false,
+      "order": 5
+    },
+    "salary": {
+      "label": "Salary",
+      "description": "Compensation expectations and alignment with the advertised range.",
+      "allowed_answer_types": [
+        "salary_range_inr",
+        "yes_no_with_details"
+      ],
+      "default_mandatory": false,
+      "order": 6
+    },
+    "notice_period": {
+      "label": "Notice period",
+      "description": "Current notice duration and feasible joining date.",
+      "allowed_answer_types": [
+        "duration_or_date",
+        "yes_no_with_details"
+      ],
+      "default_mandatory": false,
+      "order": 7
+    }
+  },
+  "roles": [
+    {
+      "role_id": "python_developer",
+      "label": "Python Developer",
+      "question_count": 14
+    },
+    {
+      "role_id": "ai_ml_engineer",
+      "label": "AI/ML Engineer",
+      "question_count": 14
+    },
+    {
+      "role_id": "software_developer",
+      "label": "Software Developer",
+      "question_count": 14
+    }
+  ]
+}

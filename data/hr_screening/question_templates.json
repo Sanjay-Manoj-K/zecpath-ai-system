@@ -1,0 +1,129 @@
+{
+  "template_version": "1.0.0",
+  "templates": [
+    {
+      "template_id": "intro_role_interest",
+      "category_id": "introduction",
+      "template": "Please introduce yourself and explain why you are interested in the {role_title} role.",
+      "placeholders": [
+        "role_title"
+      ],
+      "expected_answer_type": "free_text"
+    },
+    {
+      "template_id": "intro_relevant_project",
+      "category_id": "introduction",
+      "template": "Which project best demonstrates your capabilities relevant to {role_title}?",
+      "placeholders": [
+        "role_title"
+      ],
+      "expected_answer_type": "free_text"
+    },
+    {
+      "template_id": "education_current_qualification",
+      "category_id": "education",
+      "template": "What is your highest completed or current qualification, and what is its field of study?",
+      "placeholders": [],
+      "expected_answer_type": "education_summary"
+    },
+    {
+      "template_id": "education_relevant_training",
+      "category_id": "education",
+      "template": "Have you completed coursework or training related to {role_domain}?",
+      "placeholders": [
+        "role_domain"
+      ],
+      "expected_answer_type": "list_or_text"
+    },
+    {
+      "template_id": "experience_years",
+      "category_id": "experience",
+      "template": "How much professional or project-based experience do you have with {role_domain}?",
+      "placeholders": [
+        "role_domain"
+      ],
+      "expected_answer_type": "duration_with_context"
+    },
+    {
+      "template_id": "experience_project_example",
+      "category_id": "experience",
+      "template": "Describe a project relevant to {role_title} and your contribution to it.",
+      "placeholders": [
+        "role_title"
+      ],
+      "expected_answer_type": "free_text"
+    },
+    {
+      "template_id": "experience_model_example",
+      "category_id": "experience",
+      "template": "Describe an ML model you trained or evaluated, including your role and how you assessed its results.",
+      "placeholders": [],
+      "expected_answer_type": "free_text"
+    },
+    {
+      "template_id": "skills_frameworks",
+      "category_id": "skills",
+      "template": "Which programming languages, libraries, or frameworks have you used for {role_domain}, and for what purpose?",
+      "placeholders": [
+        "role_domain"
+      ],
+      "expected_answer_type": "list_with_examples"
+    },
+    {
+      "template_id": "skills_api_database_testing",
+      "category_id": "skills",
+      "template": "What experience do you have with APIs, databases, version control, or testing?",
+      "placeholders": [],
+      "expected_answer_type": "multi_part_text"
+    },
+    {
+      "template_id": "skills_ml_workflow",
+      "category_id": "skills",
+      "template": "What experience do you have with data preprocessing, feature engineering, and model evaluation?",
+      "placeholders": [],
+      "expected_answer_type": "multi_part_text"
+    },
+    {
+      "template_id": "location_current_and_mode",
+      "category_id": "location",
+      "template": "What city or region are you based in, and what work arrangement do you prefer?",
+      "placeholders": [],
+      "expected_answer_type": "location_and_work_mode"
+    },
+    {
+      "template_id": "location_onsite_requirement",
+      "category_id": "location",
+      "template": "Can you meet the role's stated on-site or relocation requirements, if any?",
+      "placeholders": [],
+      "expected_answer_type": "yes_no_with_details"
+    },
+    {
+      "template_id": "salary_expected_range",
+      "category_id": "salary",
+      "template": "What compensation range are you targeting for this position?",
+      "placeholders": [],
+      "expected_answer_type": "salary_range_inr"
+    },
+    {
+      "template_id": "salary_range_acceptance",
+      "category_id": "salary",
+      "template": "Is the advertised compensation range acceptable for you to continue in the process?",
+      "placeholders": [],
+      "expected_answer_type": "yes_no_with_details"
+    },
+    {
+      "template_id": "notice_period_or_start_date",
+      "category_id": "notice_period",
+      "template": "What is your current notice period, or when could you start if you are not currently employed?",
+      "placeholders": [],
+      "expected_answer_type": "duration_or_date"
+    },
+    {
+      "template_id": "notice_expected_start",
+      "category_id": "notice_period",
+      "template": "Would you be able to join by the expected start date for this position?",
+      "placeholders": [],
+      "expected_answer_type": "yes_no_with_details"
+    }
+  ]
+}
