@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "transcript_id": "TR-EXAMPLE-0001",
+  "session_id": "SES-EXAMPLE-0001",
+  "candidate_id": "CANDIDATE-EXAMPLE-0001",
+  "job_id": "JOB-EXAMPLE-PYTHON-001",
+  "language": "en-IN",
+  "created_at_utc": "2026-10-28T08:30:00Z",
+  "turns": [
+    {
+      "turn_id": "TURN-0001",
+      "sequence_no": 1,
+      "speaker_role": "interviewer",
+      "question_id": "HR-PY-001",
+      "timestamp_utc": "2026-10-28T08:30:01Z",
+      "raw_text": "Hello! Please introduce yourself.  ",
+      "normalized_text": "Hello! Please introduce yourself.",
+      "confidence": null,
+      "source": "system_generated",
+      "language": "en-IN"
+    },
+    {
+      "turn_id": "TURN-0002",
+      "sequence_no": 2,
+      "speaker_role": "candidate",
+      "question_id": "HR-PY-001",
+      "timestamp_utc": "2026-10-28T08:30:07Z",
+      "raw_text": "I am a Python developer with experience in APIs.",
+      "normalized_text": "I am a Python developer with experience in APIs.",
+      "confidence": 0.94,
+      "source": "speech_to_text",
+      "language": "en-IN"
+    }
+  ]
+}

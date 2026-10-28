@@ -1,0 +1,118 @@
+{
+  "standard_version": "1.0.0",
+  "purpose": "Common metadata conventions for screening transcript records.",
+  "timestamp_policy": {
+    "field_format": "ISO 8601 / RFC 3339",
+    "storage_timezone": "UTC",
+    "canonical_example": "2026-10-28T08:30:00Z",
+    "reject_naive_timestamps": true
+  },
+  "confidence_policy": {
+    "range": [
+      0,
+      1
+    ],
+    "meaning": "Speech-to-text confidence supplied by the upstream recognizer, not a measure of candidate honesty, competence, or answer quality.",
+    "unknown_value": null,
+    "do_not_fabricate": true
+  },
+  "fields": [
+    {
+      "field": "transcript_id",
+      "scope": "transcript",
+      "type": "string",
+      "required": true,
+      "description": "Unique identifier for a transcript document."
+    },
+    {
+      "field": "session_id",
+      "scope": "transcript",
+      "type": "string",
+      "required": true,
+      "description": "Unique screening session identifier; multiple turns share the session."
+    },
+    {
+      "field": "candidate_id",
+      "scope": "transcript",
+      "type": "string",
+      "required": true,
+      "description": "Candidate reference from the upstream ATS; use opaque IDs rather than names."
+    },
+    {
+      "field": "job_id",
+      "scope": "transcript",
+      "type": "string",
+      "required": true,
+      "description": "Job description or requisition reference."
+    },
+    {
+      "field": "question_id",
+      "scope": "turn",
+      "type": [
+        "string",
+        "null"
+      ],
+      "required": true,
+      "description": "ID from the Day 22 question bank when a turn maps to a bank question; null for free-form or non-question turns."
+    },
+    {
+      "field": "timestamp_utc",
+      "scope": "turn",
+      "type": "string/date-time",
+      "required": true,
+      "description": "UTC time for the utterance event, canonicalized with trailing Z."
+    },
+    {
+      "field": "confidence",
+      "scope": "turn",
+      "type": [
+        "number",
+        "null"
+      ],
+      "required": true,
+      "description": "ASR confidence between 0 and 1, or null when the recognizer does not provide it."
+    },
+    {
+      "field": "speaker_role",
+      "scope": "turn",
+      "type": "enum",
+      "required": true,
+      "description": "interviewer, candidate, or system."
+    },
+    {
+      "field": "sequence_no",
+      "scope": "turn",
+      "type": "integer",
+      "required": true,
+      "description": "One-based order of the turn within a transcript; unique within a transcript."
+    },
+    {
+      "field": "raw_text",
+      "scope": "turn",
+      "type": "string",
+      "required": true,
+      "description": "Speech recognizer or typed text exactly as received, before normalization."
+    },
+    {
+      "field": "normalized_text",
+      "scope": "turn",
+      "type": "string",
+      "required": true,
+      "description": "NFC Unicode; control characters replaced; whitespace collapsed; leading/trailing whitespace removed."
+    },
+    {
+      "field": "source",
+      "scope": "turn",
+      "type": "enum",
+      "required": true,
+      "description": "speech_to_text, typed, or system_generated."
+    },
+    {
+      "field": "language",
+      "scope": "transcript/turn",
+      "type": "string",
+      "required": true,
+      "description": "BCP 47 language tag, such as en-IN; turn-level language permits mixed-language conversations."
+    }
+  ]
+}

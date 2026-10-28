@@ -1,0 +1,55 @@
+{
+  "normalization_version": "1.0.0",
+  "rules": [
+    {
+      "id": "N01",
+      "rule": "Preserve original input",
+      "implementation": "Store the received text in raw_text; never overwrite it with normalized output."
+    },
+    {
+      "id": "N02",
+      "rule": "Unicode normalization",
+      "implementation": "Apply Unicode NFC to normalized_text for canonically equivalent characters."
+    },
+    {
+      "id": "N03",
+      "rule": "Control characters",
+      "implementation": "Replace non-printing control characters (except ordinary whitespace) with spaces."
+    },
+    {
+      "id": "N04",
+      "rule": "Whitespace",
+      "implementation": "Collapse consecutive spaces, tabs, and newlines to one space and trim leading/trailing whitespace."
+    },
+    {
+      "id": "N05",
+      "rule": "Meaning preservation",
+      "implementation": "Do not translate, infer missing words, change letter case, or remove punctuation in the normalized text."
+    },
+    {
+      "id": "N06",
+      "rule": "Time normalization",
+      "implementation": "Require timezone-aware ISO 8601 timestamps and store as UTC with a trailing Z."
+    },
+    {
+      "id": "N07",
+      "rule": "Confidence",
+      "implementation": "Accept only numeric values from 0 through 1; use null if unavailable; do not interpret ASR confidence as candidate quality."
+    },
+    {
+      "id": "N08",
+      "rule": "Question reference",
+      "implementation": "Use a Day 22 question_id where applicable; allow null for unprompted/free-form turns."
+    },
+    {
+      "id": "N09",
+      "rule": "Stable turn order",
+      "implementation": "Use positive unique sequence_no values and unique turn_id values within each transcript."
+    },
+    {
+      "id": "N10",
+      "rule": "Language",
+      "implementation": "Store language as a BCP 47 tag at transcript and turn level; do not assume that translations exist."
+    }
+  ]
+}
